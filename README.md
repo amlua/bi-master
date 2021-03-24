@@ -12,4 +12,4 @@ __O objetivo da presente prova de conceito é analisar a composição de carteir
 
 A carteira dos fundos, a identificação de seus gestores e muitas outras informações relevantes são dados públicos que podem ser consultados, de forma centralizada, no [Portal de Dados Abertos da Comissão de Valores Mobiliários (CVM)](http://dados.cvm.gov.br/). Portanto, essa será a fonte principal de informações para a análise que se pretende.
 
-__Importante: Os resultados da análise de carteiras de fundos produzidos por esse trabalho não devem ser utilizados para fins não acadêmicos.__
+__Importante: Os resultados da análise de carteiras de fundos apresentados nesse trabalho estão limitados pelo escopo da pesquisa acadêmica e não devem ser utilizados para classificar opções de investimento.__
