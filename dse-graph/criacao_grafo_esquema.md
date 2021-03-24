@@ -1,16 +1,26 @@
-Para executar em uma console Gremlin
+# Roteiro de criação do grafo __carteira_fundos__
 
-// Criação do Grafo - Referência: https://docs.datastax.com/en/dse/6.0/dse-dev/datastax_enterprise/graph/using/examineGraph.html
+Para ser executado em uma console Gremlin (por exemplo, em células de um [notebook Datastax Studio](BI_Master_criacao_carga__dados_grafo_carteira_fundos.studio-nb.tar)).
 
+Referência: [Notebook code editor in Gremlin code cells](https://docs.datastax.com/en/studio/6.0/studio/reference/gremlinCodeInNotebook.html)
+
+## Criação do Grafo
+Referência: https://docs.datastax.com/en/dse/6.0/dse-dev/datastax_enterprise/graph/using/examineGraph.html
+
+```
 system.graph('carteira_fundos')
     .ifNotExists()
     .withReplication("{'class': 'org.apache.cassandra.locator.NetworkTopologyStrategy', 'SearchGraph': '1'}")
     .andDurableWrites(true)
     .create()  
-	
-// Criação do Esquema - Referência: https://docs.datastax.com/en/dse/6.0/dse-dev/datastax_enterprise/graph/using/manageSchemaTOC.html
-// Vértices do Grafo
-	
+```
+
+## Criação do Esquema
+Referência: https://docs.datastax.com/en/dse/6.0/dse-dev/datastax_enterprise/graph/using/manageSchemaTOC.html
+
+### Vértices do Grafo
+
+```
 schema.vertexLabel('ativo')
 	.ifNotExists()
 	.partitionBy('id_ativo', Varchar)
@@ -39,9 +49,11 @@ schema.vertexLabel('fundo')
 	.property('situacao', Varchar)
 	.property('tipo', Varchar)
 	.create()
+```
+
+### Arestas do Grafo
 	
-// Arestas do Grafo
-	
+```
 schema.vertexLabel('gestor')
 	.ifNotExists()
 	.partitionBy('cpf_cnpj', Varchar)
@@ -88,9 +100,14 @@ schema.edgeLabel('gerido')
 	.partitionBy(OUT, 'cnpj', 'fundo_cnpj')
 	.clusterBy(IN, 'cpf_cnpj', 'gestor_cpf_cnpj', Asc)
 	.create()
+```
 
-// Índices e Views Materializadas - Referência: https://docs.datastax.com/en/dse/6.8/dse-dev/datastax_enterprise/graph/using/indexing.html
+### Índices e Views Materializadas 
+Otimizam o desempenho das consultas e travessias no grafo. Cada um desses índices teve sua construção sugerida pelo Index Analyzer do DSE, durante a análise exploratória.
+
+Referência: https://docs.datastax.com/en/dse/6.8/dse-dev/datastax_enterprise/graph/using/indexing.html
 	
+```
 schema.vertexLabel('ativo')
 	.searchIndex()
 	.ifNotExists()
@@ -140,3 +157,5 @@ schema.edgeLabel('gerido')
 	.ifNotExists()
 	.inverse()
 	.create()
+```
+	
