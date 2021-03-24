@@ -13,3 +13,12 @@ __O objetivo da presente prova de conceito é analisar a composição de carteir
 A carteira dos fundos, a identificação de seus gestores e muitas outras informações relevantes são dados públicos que podem ser consultados, de forma centralizada, no [Portal de Dados Abertos da Comissão de Valores Mobiliários (CVM)](http://dados.cvm.gov.br/). Portanto, essa será a fonte principal de informações para a análise que se pretende.
 
 __Importante: Os resultados da análise de carteiras de fundos apresentados nesse trabalho estão limitados pelo escopo da pesquisa acadêmica e não devem ser utilizados para classificar opções de investimento.__
+
+## Ferramentas utilizadas na construção da prova de conceito:
+
+* __[Linguagem Python](https://www.python.org/)__: obtenção, preparação e visualização dos dados
+* __[Google Colab](https://colab.research.google.com/notebooks/intro.ipynb)__: ambiente de execução Python
+* __[Datastax Enterprise (DSE) Graph](https://downloads.datastax.com/#enterprise)__: banco de dados de grafos
+* __[DataStax Bulk Loader](https://downloads.datastax.com/#bulk-loader)__: ferramenta de carga de dados no banco de grafos
+* __[Linguagem Gremlin](https://tinkerpop.apache.org/gremlin.html)__: consulta e travessia de grafos
+* __[Datastax Studio](https://downloads.datastax.com/#studio)__: ambiente de execução Gremlin (análise exploratória de grafos)
