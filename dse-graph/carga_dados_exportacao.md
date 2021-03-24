@@ -1,10 +1,12 @@
 # Roteiro para carga de dados no grafo carteira_fundos
 
-Para ser executado no prompt de comando do servidor DSE Graph
+Para ser executado no prompt de comando do servidor DSE Graph.
+
+Os dados para carga estão no formato csv e são resultado da execução do notebook Colab: [dse-load-files.tar.gz](dse-load-files.tar.gz).
 
 ```sh
 cd ~
-tar zvxf [dse-load-files.tar.gz](dse-load-files.tar.gz)
+tar zvxf dse-load-files.tar.gz
 
 cd ~/dsbulk-1.8.0/
 
