@@ -5,7 +5,7 @@ Para ser executado em uma console Gremlin (por exemplo, em células de um [noteb
 Referência: [Notebook code editor in Gremlin code cells](https://docs.datastax.com/en/studio/6.0/studio/reference/gremlinCodeInNotebook.html)
 
 ## Criação do Grafo
-Referência: https://docs.datastax.com/en/dse/6.0/dse-dev/datastax_enterprise/graph/using/examineGraph.html
+Referência: [Examining graphs](https://docs.datastax.com/en/dse/6.0/dse-dev/datastax_enterprise/graph/using/examineGraph.html)
 
 ```
 system.graph('carteira_fundos')
@@ -16,7 +16,7 @@ system.graph('carteira_fundos')
 ```
 
 ## Criação do Esquema
-Referência: https://docs.datastax.com/en/dse/6.0/dse-dev/datastax_enterprise/graph/using/manageSchemaTOC.html
+Referência: [Managing graph schema](https://docs.datastax.com/en/dse/6.0/dse-dev/datastax_enterprise/graph/using/manageSchemaTOC.html)
 
 ### Vértices do Grafo
 
@@ -105,7 +105,7 @@ schema.edgeLabel('gerido')
 ### Índices e Views Materializadas 
 Otimizam o desempenho das consultas e travessias no grafo. Cada um desses índices teve sua construção sugerida pelo Index Analyzer do DSE, durante a análise exploratória.
 
-Referência: https://docs.datastax.com/en/dse/6.8/dse-dev/datastax_enterprise/graph/using/indexing.html
+Referência: [Indexing](https://docs.datastax.com/en/dse/6.8/dse-dev/datastax_enterprise/graph/using/indexing.html)
 	
 ```
 schema.vertexLabel('ativo')
