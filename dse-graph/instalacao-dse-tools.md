@@ -2,12 +2,12 @@
 
 Licença de uso dos produtos DataStax: [End User License Agreement (EULA)](https://www.datastax.com/legal/datastax-enterprise-terms) (Limited No-Fee License for a period of ninety (90) days solely for non-production purposes)
 
-Servidor Ubuntu 20.04.2 LTS (64 bits)
+__Servidor Ubuntu 20.04.2 LTS (64 bits)__
 
 ## Datastax Enterprise (DSE) Graph - Banco de Dados de Grafos
 Referência: [Installing DataStax Enterprise 6.8 on a single node](https://docs.datastax.com/en/install/6.8/install/dseBasicInstall.html)
 
-DSE version: 6.8 patch: 6.8.10
+__DSE version: 6.8 patch: 6.8.10__
 
 ### Instalação JDK
 ```sh
@@ -52,6 +52,8 @@ cd ~/dse-6.8.10/
 
 ## Datastax Studio
 
+__Datastax Studio version: 6.8.9__
+
 ### Instalação Datastax Studio
 Referência: [Installing DataStax Studio 6.8](https://docs.datastax.com/en/install/6.8/install/installStudio.html)
 
@@ -70,6 +72,8 @@ cd ~/datastax-studio-6.8.9/
 ```
 
 ## Datastax Bulk Loader
+
+__Datastax Bulk Loader version: 1.8.0__
 
 ### Instalação do Datastax Bulk Loader
 Referência: [Installing DataStax Bulk Loader for Apache Cassandra](https://docs.datastax.com/en/dsbulk/doc/dsbulk/install/dsbulkInstall.html)
