@@ -3,9 +3,13 @@
 Para ser executado em uma console Gremlin (por exemplo, em células de um [notebook Datastax Studio](BI-Master-analise-grafo.studio-nb.tar)).
 
 Referências: 
+
 [Getting Started](https://tinkerpop.apache.org/docs/3.4.10/tutorials/getting-started/)
+
 [Gremlin’s Anatomy](https://tinkerpop.apache.org/docs/current/tutorials/gremlins-anatomy/)
+
 [Recipes](https://tinkerpop.apache.org/docs/current/recipes/#_recipes)
+
 [PRACTICAL GREMLIN: An Apache TinkerPop Tutorial](http://kelvinlawrence.net/book/Gremlin-Graph-Guide.html)
 
 ## Cardinalidade
@@ -18,7 +22,7 @@ g.with("label-warning", false).V()
 ```
 [Resultado](resultados-analise/1-1-numero-vertices-tipo.json)
 
-### 1.1. Número de arestas por tipo (_label_)
+### 1.2. Número de arestas por tipo (_label_)
 ```
 g.with("label-warning", false).E()
     .groupCount()
@@ -294,5 +298,6 @@ g.V()
     .path()
 ```
 Resultado: ```No Data Returned```
+
 Não foram encontrados ciclos no subgrafo.
 
