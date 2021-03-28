@@ -13,7 +13,6 @@ __DSE version: 6.8 patch: 6.8.10__
 ```sh
 sudo apt-get update
 sudo apt-get install openjdk-8-jdk
-java -version
 ```
 
 ### Instalação pacote libaio
@@ -27,7 +26,7 @@ cd ~
 curl -L https://downloads.datastax.com/enterprise/dse.tar.gz | tar xz
 ```
 
-### Criação de diretórios para os dados e o log do DSE
+### Criação de diretórios para dados e logs no Apache Cassandra (banco NoSQL sobre o qual o DSE é construído)
 ```sh
 sudo mkdir /var/lib/cassandra
 sudo mkdir /var/log/cassandra
@@ -61,6 +60,12 @@ Referência: [Installing DataStax Studio 6.8](https://docs.datastax.com/en/insta
 cd ~
 tar zvxf datastax-studio-6.8.9.tar.gz
 cd ~/datastax-studio-6.8.9/
+```
+### Configuração customizada
+
+Para permitir o acesso externo ao Datastax Studio, alterar a diretiva ```httpBindAddress``` no arquivo ```~/datastax-studio-6.8.9/conf/configuration.yaml``` (somente em ambiente de laboratório):
+```sh
+httpBindAddress: 0.0.0.0
 ```
 
 ### Inicialização do Datastax Studio
