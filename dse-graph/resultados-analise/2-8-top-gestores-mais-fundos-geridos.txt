@@ -1,0 +1,52 @@
+[
+  {
+    "cpf_cnpj": "62.375.134/0001-44",
+    "nome": "BRAM - BRADESCO ASSET MANAGEMENT S.A. DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS",
+    "degree": "1414"
+  },
+  {
+    "cpf_cnpj": "33.311.713/0001-25",
+    "nome": "ITAU DTVM S.A.",
+    "degree": "1268"
+  },
+  {
+    "cpf_cnpj": "68.328.632/0001-12",
+    "nome": "CREDIT SUISSE HEDGING-GRIFFO WEALTH MANAGEMENT S.A.",
+    "degree": "979"
+  },
+  {
+    "cpf_cnpj": "60.701.190/0001-04",
+    "nome": "ITAU UNIBANCO S.A.",
+    "degree": "907"
+  },
+  {
+    "cpf_cnpj": "62.180.047/0001-31",
+    "nome": "SAFRA ASSET MANAGEMENT LTDA.",
+    "degree": "752"
+  },
+  {
+    "cpf_cnpj": "60.451.242/0001-23",
+    "nome": "BTG PACTUAL WM GESTÃO DE RECURSOS LTDA",
+    "degree": "685"
+  },
+  {
+    "cpf_cnpj": "30.822.936/0001-69",
+    "nome": "BB GESTAO DE RECURSOS DTVM S.A",
+    "degree": "624"
+  },
+  {
+    "cpf_cnpj": "12.695.840/0001-03",
+    "nome": "JULIUS BAER FAMILY OFFICE BRASIL GESTÃO DE PATRIMÔNIO LTDA.",
+    "degree": "610"
+  },
+  {
+    "cpf_cnpj": "10.231.177/0001-52",
+    "nome": "SANTANDER BRASIL GESTÃO DE RECURSOS LTDA",
+    "degree": "438"
+  },
+  {
+    "cpf_cnpj": "15.289.957/0001-77",
+    "nome": "XP ADVISORY GESTAO DE RECURSOS LTDA",
+    "degree": "384"
+  }
+]

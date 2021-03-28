@@ -1,0 +1,452 @@
+[
+  {
+    "id_ativo": "17b70bef9bfc45ec1ab9f88ce413a4d3",
+    "descricao": "LETRAS DO TESOURO NACIONAL",
+    "isin": "BRSTNCLTN7P7",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "LETRAS DO TESOURO NACIONAL",
+    "degree": "2008"
+  },
+  {
+    "id_ativo": "ba16a7556f7457cd62e442f971f7ddd3",
+    "descricao": "LETRAS FINANCEIRAS DO TESOURO",
+    "isin": "BRSTNCLF1RD2",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO",
+    "degree": "1594"
+  },
+  {
+    "id_ativo": "c72352b69567bd78998644887a498ae9",
+    "descricao": "NOTAS DO TESOURO NACIONAL SERIE F NOTAS DO TESOURO NACIONAL SERIE F",
+    "isin": "BRSTNCNTF1P8",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "NOTAS DO TESOURO NACIONAL SERIE F NOTAS DO TESOURO NACIONAL SERIE F",
+    "degree": "1503"
+  },
+  {
+    "id_ativo": "503ef00635733fa695f7af0630d2c12f",
+    "descricao": "LETRAS FINANCEIRAS DO TESOURO",
+    "isin": "BRSTNCLF1RE0",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO",
+    "degree": "1491"
+  },
+  {
+    "id_ativo": "fb52fe8928c7e0bbfb02a6c22d19e9eb",
+    "descricao": "LETRAS FINANCEIRAS DO TESOURO LETRAS FINANCEIRAS DO TESOURO",
+    "isin": "BRSTNCLF1R58",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO LETRAS FINANCEIRAS DO TESOURO",
+    "degree": "1440"
+  },
+  {
+    "id_ativo": "1d10237b4abbca11a03a6ee745d6cac6",
+    "descricao": "LETRAS FINANCEIRAS DO TESOURO LETRAS FINANCEIRAS DO TESOURO",
+    "isin": "BRSTNCLF1R74",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO LETRAS FINANCEIRAS DO TESOURO",
+    "degree": "1425"
+  },
+  {
+    "id_ativo": "7ab2364779f0fe9bebdff505131dde1f",
+    "descricao": "LETRAS FINANCEIRAS DO TESOURO LETRAS FINANCEIRAS DO TESOURO",
+    "isin": "BRSTNCLF1R82",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO LETRAS FINANCEIRAS DO TESOURO",
+    "degree": "1392"
+  },
+  {
+    "id_ativo": "ba0d1f3e7867201102975adfcb19db2e",
+    "descricao": "LETRAS FINANCEIRAS DO TESOURO LETRAS FINANCEIRAS DO TESOURO",
+    "isin": "BRSTNCLF1R90",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO LETRAS FINANCEIRAS DO TESOURO",
+    "degree": "1372"
+  },
+  {
+    "id_ativo": "bde195cb5fd50051a514919231baf0d5",
+    "descricao": "LETRAS FINANCEIRAS DO TESOURO LETRAS FINANCEIRAS DO TESOURO",
+    "isin": "BRSTNCLF1RA8",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO LETRAS FINANCEIRAS DO TESOURO",
+    "degree": "1319"
+  },
+  {
+    "id_ativo": "2755bb9c82b7185301a23961ba89f652",
+    "descricao": "LETRAS FINANCEIRAS DO TESOURO LETRAS FINANCEIRAS DO TESOURO",
+    "isin": "BRSTNCLF1R66",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO LETRAS FINANCEIRAS DO TESOURO",
+    "degree": "1238"
+  },
+  {
+    "id_ativo": "83a6f4e8b77f986c8bbee584d86d0a30",
+    "descricao": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "isin": "BRSTNCNTB0O7",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "degree": "1230"
+  },
+  {
+    "id_ativo": "3684603707d3d8a22fc84bd66487d6d9",
+    "descricao": "LETRAS FINANCEIRAS DO TESOURO",
+    "isin": "BRSTNCLF0008",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO",
+    "degree": "1217"
+  },
+  {
+    "id_ativo": "870387d2b14a510f20a6de61da49b7a6",
+    "descricao": "LETRAS FINANCEIRAS DO TESOURO",
+    "isin": "BRSTNCLF1RC4",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO",
+    "degree": "1177"
+  },
+  {
+    "id_ativo": "7a7116e807a341d293a46f139db93776",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BRVALEACNOR0",
+    "ticker": "VALE3",
+    "emissor": "VALE SA",
+    "ticker_desc": "VALE3",
+    "degree": "1111"
+  },
+  {
+    "id_ativo": "744a9a382e0cdeae5d5711538e0b8dbc",
+    "descricao": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "isin": "BRSTNCNTB4O9",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "degree": "1108"
+  },
+  {
+    "id_ativo": "e64fbce558cfceb1a34d1c1d6c23c42c",
+    "descricao": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "isin": "BRSTNCNTB3D4",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "degree": "1077"
+  },
+  {
+    "id_ativo": "619037aab8f40f94156f7f4e59a00c87",
+    "descricao": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "isin": "BRSTNCNTB3Y0",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "degree": "951"
+  },
+  {
+    "id_ativo": "f0dcfaa52a2f4db648b46ffd5bb90b43",
+    "descricao": "NOTAS DO TESOURO NACIONAL SERIE B",
+    "isin": "BRSTNCNTB633",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "NOTAS DO TESOURO NACIONAL SERIE B",
+    "degree": "923"
+  },
+  {
+    "id_ativo": "7c09d5c22ca144b727cd605579450fe4",
+    "descricao": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "isin": "BRSTNCNTB4X0",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "degree": "899"
+  },
+  {
+    "id_ativo": "8e601295fc15864beb78ba3b3eee0aa6",
+    "descricao": "ACOES NOMINATIVAS ACOES PREFERENCIAIS",
+    "isin": "BRPETRACNPR6",
+    "ticker": "PETR4",
+    "emissor": "PETROLEO BRASILEIRO SA PETROBRAS",
+    "ticker_desc": "PETR4",
+    "degree": "878"
+  },
+  {
+    "id_ativo": "931fda6a5040d49705a8baf564d28659",
+    "descricao": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "isin": "BRSTNCNTB096",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "degree": "873"
+  },
+  {
+    "id_ativo": "333b1d7f914bbabfd01bc34171c53751",
+    "descricao": "ACOES NOMINATIVAS ACOES PREFERENCIAIS",
+    "isin": "BRITUBACNPR1",
+    "ticker": "ITUB4",
+    "emissor": "ITAU UNIBANCO HOLDING SA",
+    "ticker_desc": "ITUB4",
+    "degree": "858"
+  },
+  {
+    "id_ativo": "7af55854b7141dac5e4988eb1deceb0f",
+    "descricao": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "isin": "BRSTNCNTB4U6",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "degree": "854"
+  },
+  {
+    "id_ativo": "cbdd659cad2412d2c649e72baf12d33e",
+    "descricao": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "isin": "BRSTNCNTB0A6",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "degree": "841"
+  },
+  {
+    "id_ativo": "fda7c359861b5ef5f734a300d72c8ac3",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BRB3SAACNOR6",
+    "ticker": "B3SA3",
+    "emissor": "B3 SA - BRASIL, BOLSA, BALCAO",
+    "ticker_desc": "B3SA3",
+    "degree": "822"
+  },
+  {
+    "id_ativo": "47de21fe2e523d6172d4b6ad3a79c03c",
+    "descricao": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "isin": "BRSTNCNTB3B8",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "degree": "791"
+  },
+  {
+    "id_ativo": "2a253d33d5d83204ee3742dcc1ac2169",
+    "descricao": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "isin": "BRSTNCNTB4T8",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
+    "degree": "748"
+  },
+  {
+    "id_ativo": "72b6dc5def2d9724f6499b49f49cb3af",
+    "descricao": "LETRAS FINANCEIRAS DO TESOURO",
+    "isin": "BRSTNCLF1RF7",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO",
+    "degree": "722"
+  },
+  {
+    "id_ativo": "ce502efeeba6d8fd4d3cfc21a9d34744",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BRBBASACNOR3",
+    "ticker": "BBAS3",
+    "emissor": "BCO BRASIL SA",
+    "ticker_desc": "BBAS3",
+    "degree": "721"
+  },
+  {
+    "id_ativo": "d1fec1dd0ca69925daace6935344d821",
+    "descricao": "ACOES NOMINATIVAS ACOES PREFERENCIAIS",
+    "isin": "BRBBDCACNPR8",
+    "ticker": "BBDC4",
+    "emissor": "BCO BRADESCO SA",
+    "ticker_desc": "BBDC4",
+    "degree": "716"
+  },
+  {
+    "id_ativo": "3f474f32273732a1de347fe60635f886",
+    "descricao": "LETRAS DO TESOURO NACIONAL",
+    "isin": "BRSTNCLTN7S1",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "LETRAS DO TESOURO NACIONAL",
+    "degree": "688"
+  },
+  {
+    "id_ativo": "de97056b505d97791938b59280bfd896",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BRMGLUACNOR2",
+    "ticker": "MGLU3",
+    "emissor": "MAGAZINE LUIZA SA",
+    "ticker_desc": "MGLU3",
+    "degree": "668"
+  },
+  {
+    "id_ativo": "c11b2e01abc72b02f65081a356beb451",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BRJBSSACNOR8",
+    "ticker": "JBSS3",
+    "emissor": "JBS SA",
+    "ticker_desc": "JBSS3",
+    "degree": "654"
+  },
+  {
+    "id_ativo": "4b2b3905aa0bb656b9251645c5669ba8",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BRVVARACNOR1",
+    "ticker": "VVAR3",
+    "emissor": "VIA VAREJO SA",
+    "ticker_desc": "VVAR3",
+    "degree": "653"
+  },
+  {
+    "id_ativo": "53b8cb8020fd6c19048597cf84691569",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BRLRENACNOR1",
+    "ticker": "LREN3",
+    "emissor": "LOJAS RENNER SA",
+    "ticker_desc": "LREN3",
+    "degree": "643"
+  },
+  {
+    "id_ativo": "9adb688454b55b5844cefff3cba36b3b",
+    "descricao": "NOTAS DO TESOURO NACIONAL SERIE F NOTAS DO TESOURO NACIONAL SERIE F",
+    "isin": "BRSTNCNTF147",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "NOTAS DO TESOURO NACIONAL SERIE F NOTAS DO TESOURO NACIONAL SERIE F",
+    "degree": "606"
+  },
+  {
+    "id_ativo": "f0722f654370cb1fa1d02803a5b309f4",
+    "descricao": "NOTAS DO TESOURO NACIONAL SERIE F NOTAS DO TESOURO NACIONAL SERIE F",
+    "isin": "BRSTNCNTF170",
+    "ticker": "-",
+    "emissor": "SECRETARIA TESOURO NACIONAL",
+    "ticker_desc": "NOTAS DO TESOURO NACIONAL SERIE F NOTAS DO TESOURO NACIONAL SERIE F",
+    "degree": "606"
+  },
+  {
+    "id_ativo": "3ec34249c009ed55b04c29eb980193a9",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BRRENTACNOR4",
+    "ticker": "RENT3",
+    "emissor": "LOCALIZA RENT A CAR SA",
+    "ticker_desc": "RENT3",
+    "degree": "604"
+  },
+  {
+    "id_ativo": "bb533c0f7ed83ba3ba9cd973f900ee5e",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BRSUZBACNOR0",
+    "ticker": "SUZB3",
+    "emissor": "SUZANO S.A.",
+    "ticker_desc": "SUZB3",
+    "degree": "601"
+  },
+  {
+    "id_ativo": "0876feeeee4446432c4d1d7b2cd53e3b",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BREQTLACNOR0",
+    "ticker": "EQTL3",
+    "emissor": "EQUATORIAL ENERGIA SA",
+    "ticker_desc": "EQTL3",
+    "degree": "546"
+  },
+  {
+    "id_ativo": "38026912e83bf293a25c9b7a8cf0d3db",
+    "descricao": "Disponibilidades - Outros - BANCO BRASIL CAIXA",
+    "isin": "-",
+    "ticker": "-",
+    "emissor": "BCO BRASIL SA",
+    "ticker_desc": "Disponibilidades - Outros - BANCO BRASIL CAIXA",
+    "degree": "545"
+  },
+  {
+    "id_ativo": "6adf679708edc341b78a89565b0fe05a",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BRRAILACNOR9",
+    "ticker": "RAIL3",
+    "emissor": "RUMO SA",
+    "ticker_desc": "RAIL3",
+    "degree": "535"
+  },
+  {
+    "id_ativo": "931c9c2ed78e98c7756d803f70a43c43",
+    "descricao": "ACOES NOMINATIVAS ACOES PREFERENCIAIS",
+    "isin": "BRITSAACNPR7",
+    "ticker": "ITSA4",
+    "emissor": "ITAUSA  SA",
+    "ticker_desc": "ITSA4",
+    "degree": "508"
+  },
+  {
+    "id_ativo": "4e39a923d4d19d23c991758d5293713e",
+    "descricao": "ACOES NOMINATIVAS ACOES PREFERENCIAIS",
+    "isin": "BRGGBRACNPR8",
+    "ticker": "GGBR4",
+    "emissor": "GERDAU SA",
+    "ticker_desc": "GGBR4",
+    "degree": "478"
+  },
+  {
+    "id_ativo": "1d73788093a7769a763e88bb5ea304ac",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BRCYREACNOR7",
+    "ticker": "CYRE3",
+    "emissor": "CYRELA BRAZIL REALTY SA EMPREENDIMENTOS PARTICIPACOES",
+    "ticker_desc": "CYRE3",
+    "degree": "477"
+  },
+  {
+    "id_ativo": "b81688efd873236e77a9ae04b71f1aa5",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BRBRFSACNOR8",
+    "ticker": "BRFS3",
+    "emissor": "BRF SA",
+    "ticker_desc": "BRFS3",
+    "degree": "473"
+  },
+  {
+    "id_ativo": "957f2f9c1c4b39f04cd383b833fcc643",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BRPETRACNOR9",
+    "ticker": "PETR3",
+    "emissor": "PETROLEO BRASILEIRO SA PETROBRAS",
+    "ticker_desc": "PETR3",
+    "degree": "471"
+  },
+  {
+    "id_ativo": "89aa8b726d176ff95bbc0fce0c32b900",
+    "descricao": "ACOES NOMINATIVAS",
+    "isin": "BRNTCOACNOR5",
+    "ticker": "NTCO3",
+    "emissor": "NATURA &CO HOLDING S.A.",
+    "ticker_desc": "NTCO3",
+    "degree": "462"
+  },
+  {
+    "id_ativo": "63682048a3d8861bf42bca610a876804",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BRABEVACNOR1",
+    "ticker": "ABEV3",
+    "emissor": "AMBEV S.A",
+    "ticker_desc": "ABEV3",
+    "degree": "444"
+  },
+  {
+    "id_ativo": "5d52a2b0a1bd1ce98abfc71aae8f3dd1",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BRBRDTACNOR1",
+    "ticker": "BRDT3",
+    "emissor": "PETROBRAS DISTRIBUIDORA SA",
+    "ticker_desc": "BRDT3",
+    "degree": "443"
+  }
+]

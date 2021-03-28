@@ -1,0 +1,72 @@
+[
+  {
+    "id_ativo": "7a7116e807a341d293a46f139db93776",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "ticker": "VALE3",
+    "emissor": "VALE SA",
+    "degree": "4593"
+  },
+  {
+    "id_ativo": "fda7c359861b5ef5f734a300d72c8ac3",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "ticker": "B3SA3",
+    "emissor": "B3 SA - BRASIL, BOLSA, BALCAO",
+    "degree": "3937"
+  },
+  {
+    "id_ativo": "d1fec1dd0ca69925daace6935344d821",
+    "descricao": "ACOES NOMINATIVAS ACOES PREFERENCIAIS",
+    "ticker": "BBDC4",
+    "emissor": "BCO BRADESCO SA",
+    "degree": "3838"
+  },
+  {
+    "id_ativo": "8e601295fc15864beb78ba3b3eee0aa6",
+    "descricao": "ACOES NOMINATIVAS ACOES PREFERENCIAIS",
+    "ticker": "PETR4",
+    "emissor": "PETROLEO BRASILEIRO SA PETROBRAS",
+    "degree": "3828"
+  },
+  {
+    "id_ativo": "333b1d7f914bbabfd01bc34171c53751",
+    "descricao": "ACOES NOMINATIVAS ACOES PREFERENCIAIS",
+    "ticker": "ITUB4",
+    "emissor": "ITAU UNIBANCO HOLDING SA",
+    "degree": "3821"
+  },
+  {
+    "id_ativo": "53b8cb8020fd6c19048597cf84691569",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "ticker": "LREN3",
+    "emissor": "LOJAS RENNER SA",
+    "degree": "3651"
+  },
+  {
+    "id_ativo": "de97056b505d97791938b59280bfd896",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "ticker": "MGLU3",
+    "emissor": "MAGAZINE LUIZA SA",
+    "degree": "3601"
+  },
+  {
+    "id_ativo": "3ec34249c009ed55b04c29eb980193a9",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "ticker": "RENT3",
+    "emissor": "LOCALIZA RENT A CAR SA",
+    "degree": "3466"
+  },
+  {
+    "id_ativo": "bb533c0f7ed83ba3ba9cd973f900ee5e",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "ticker": "SUZB3",
+    "emissor": "SUZANO S.A.",
+    "degree": "3319"
+  },
+  {
+    "id_ativo": "c11b2e01abc72b02f65081a356beb451",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "ticker": "JBSS3",
+    "emissor": "JBS SA",
+    "degree": "3177"
+  }
+]

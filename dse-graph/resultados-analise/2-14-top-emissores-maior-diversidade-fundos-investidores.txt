@@ -1,0 +1,52 @@
+[
+  {
+    "id_emissor": "0425aba961b0e9399dbc2cfb7628f351",
+    "nome": "SECRETARIA TESOURO NACIONAL",
+    "degree": "8581"
+  },
+  {
+    "id_emissor": "02e3441228b5c383156c605d8f9fa3c1",
+    "nome": "BCO BRADESCO SA",
+    "degree": "2255"
+  },
+  {
+    "id_emissor": "2447d53df1878d185c13ac1a89eaf4ad",
+    "nome": "PETROLEO BRASILEIRO SA PETROBRAS",
+    "degree": "2026"
+  },
+  {
+    "id_emissor": "2e79cc0ca9a1fd10cb14686c77d4fa17",
+    "nome": "B3 SA - BRASIL, BOLSA, BALCAO",
+    "degree": "1687"
+  },
+  {
+    "id_emissor": "6bc59859d668adc4261cf40b06f7c81c",
+    "nome": "ITAU UNIBANCO HOLDING SA",
+    "degree": "1675"
+  },
+  {
+    "id_emissor": "3820332f6b569fb0ec9d25b92856ff5c",
+    "nome": "BCO BRASIL SA",
+    "degree": "1656"
+  },
+  {
+    "id_emissor": "ac790d921a7bac51139097231848ce3a",
+    "nome": "VALE SA",
+    "degree": "1645"
+  },
+  {
+    "id_emissor": "9d20d9e73986690c10f714312be25190",
+    "nome": "BOLSA MERCADORIAS FUTUROS BMF SA",
+    "degree": "1448"
+  },
+  {
+    "id_emissor": "7176b7cdb7acc4bedef656d24ad76893",
+    "nome": "LOJAS AMERICANAS SA",
+    "degree": "1269"
+  },
+  {
+    "id_emissor": "edde3788ac1822c6340db516850a9810",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "degree": "1246"
+  }
+]
