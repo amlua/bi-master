@@ -16,4 +16,4 @@ g.with("label-warning", false).V()
     .groupCount()
     .by(label) 
 ```
-[Resultado](/resultados-analise/1-1-numero-vertices-tipo.json)
+[Resultado](resultados-analise/1-1-numero-vertices-tipo.json)
