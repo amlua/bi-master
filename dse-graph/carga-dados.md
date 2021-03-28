@@ -2,7 +2,7 @@
 
 Para ser executado no prompt de comando do servidor DSE Graph.
 
-Os dados para carga estão no formato csv e são resultado da execução do notebook Colab [Carteiras de Fundos de Investimento: Obtenção e preparação dos dados](../dados-abertos/download-preparacao.ipynb): [dse-load-files.tar.gz](dse-load-files.tar.gz).
+Os dados para carga estão no formato csv ([dse-load-files.tar.gz](dse-load-files.tar.gz)) e são resultado da execução do notebook [Carteiras de Fundos de Investimento: Obtenção e preparação dos dados](../dados-abertos/download-preparacao.ipynb).
 
 ```sh
 cd ~
