@@ -36,8 +36,10 @@ sudo chown -R $USER:$GROUP /var/log/cassandra
 
 ### Configuração customizada
 
-Alterar a diretiva ```realtime_evaluation_timeout_in_seconds``` no arquivo ```~/dse-6.8.10/resources/dse/conf/dse.yaml```:
+Alterar as seguintes diretivas no arquivo ```~/dse-6.8.10/resources/dse/conf/dse.yaml```:
 ```sh
+cql_solr_query_paging: driver
+...
 realtime_evaluation_timeout_in_seconds: 300
 ```
 
