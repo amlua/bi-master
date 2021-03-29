@@ -26,7 +26,7 @@ cd ~
 curl -L https://downloads.datastax.com/enterprise/dse.tar.gz | tar xz
 ```
 
-### Criação de diretórios para dados e logs no Apache Cassandra (banco NoSQL sobre o qual o DSE é construído)
+### Criação de diretórios para dados e logs no Apache Cassandra (banco NoSQL da solução Datastax Enterprise)
 ```sh
 sudo mkdir /var/lib/cassandra
 sudo mkdir /var/log/cassandra
