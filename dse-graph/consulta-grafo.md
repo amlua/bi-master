@@ -18,7 +18,7 @@ g.V()
     .hasLabel('fundo')
     .has('cnpj',cnpj_fundo)
 ```
-[Resultado](resultados-analise/1-vertice-fundo.png)
+[Resultado](resultados-consulta/1-vertice-fundo.png)
 
 ```
 g.V()
@@ -34,6 +34,6 @@ g.V()
     .by(coalesce(values('patrimonio_liquido'), constant('-')))
 ```
 
-[Resultado](resultados-analise/1-propriedades-fundo.json)
+[Resultado](resultados-consulta/1-propriedades-fundo.json)
 
 ## 2. Gestores do fundo
