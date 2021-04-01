@@ -7,6 +7,8 @@ Esta página apresenta o código das consultas Gremlin e os resultados obtidos p
 * Fundo CNPJ: 08.912.591/0001-85 (JGP MAX FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO MULTIMERCADO)
 * Ativo [ISIN: BRVIVTDBS069 (DEBENTURES SIMPLES TELEFONICA BRASIL SA)](http://bvmf.bmfbovespa.com.br/consulta-isin/DetalheCodigosIsin.aspx?idioma=pt-BR&codigo=BRVIVTDBS069)
 
+Posição da carteira dos fundos na base consultada: 11/2020.
+
 ## 1. Dados cadastrais e patrimônio líquido do fundo
 
 ### Definição do fundo para consulta
