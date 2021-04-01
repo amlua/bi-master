@@ -2,15 +2,10 @@
 
 Para ser executado em uma console Gremlin (por exemplo, em células de um [notebook Datastax Studio](BI-Master-analise-grafo.studio-nb.tar)).
 
-Referências: 
+Posição da carteira dos fundos no grafo analisado: 11/2020.
 
-[Getting Started](https://tinkerpop.apache.org/docs/3.4.10/tutorials/getting-started/)
+Arquivo de dump do grafo analisado: [dse-unload-files.tar.gz](dse-unload-files.tar.gz).
 
-[Gremlin’s Anatomy](https://tinkerpop.apache.org/docs/current/tutorials/gremlins-anatomy/)
-
-[Recipes](https://tinkerpop.apache.org/docs/current/recipes/#_recipes)
-
-[PRACTICAL GREMLIN: An Apache TinkerPop Tutorial](http://kelvinlawrence.net/book/Gremlin-Graph-Guide.html)
 
 ## Cardinalidade
 
