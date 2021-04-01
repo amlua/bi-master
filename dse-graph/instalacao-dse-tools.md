@@ -40,7 +40,9 @@ Alterar as seguintes diretivas no arquivo ```~/dse-6.8.10/resources/dse/conf/dse
 ```sh
 cql_solr_query_paging: driver
 ...
-realtime_evaluation_timeout_in_seconds: 300
+graph:
+  ...
+  realtime_evaluation_timeout_in_seconds: 300
 ```
 
 ### Inicialização do banco Datastax Enterprise, habilitando o DSE Graph e o DSE Search
@@ -61,8 +63,8 @@ Referência: [Installing DataStax Studio 6.8](https://docs.datastax.com/en/insta
 ```sh
 cd ~
 tar zvxf datastax-studio-6.8.9.tar.gz
-cd ~/datastax-studio-6.8.9/
 ```
+
 ### Configuração customizada
 
 Para permitir o acesso externo ao Datastax Studio, alterar a diretiva ```httpBindAddress``` no arquivo ```~/datastax-studio-6.8.9/conf/configuration.yaml``` (somente em ambiente de laboratório):

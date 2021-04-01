@@ -13,13 +13,20 @@ Referências:
 [PRACTICAL GREMLIN: An Apache TinkerPop Tutorial](http://kelvinlawrence.net/book/Gremlin-Graph-Guide.html)
 
 ## 1. Dados cadastrais e patrimônio líquido do fundo
+
+### Definição do fundo para consulta
+```
+def cnpj_fundo='30.509.286/0001-04'
+```
+### Vértice do fundo
 ```
 g.V()
     .hasLabel('fundo')
     .has('cnpj',cnpj_fundo)
 ```
-[Resultado](resultados-consulta/1-vertice-fundo.png)
+![Vértice](resultados-consulta/1-fundo.png "Vértice")
 
+### Propriedades do fundo (formato JSON)
 ```
 g.V()
     .hasLabel('fundo')
@@ -33,7 +40,418 @@ g.V()
     .by(coalesce(values('situacao'), constant('-')))
     .by(coalesce(values('patrimonio_liquido'), constant('-')))
 ```
-
-[Resultado](resultados-consulta/1-propriedades-fundo.json)
+[Resultado](resultados-consulta/1-fundo.json)
 
 ## 2. Gestores do fundo
+
+### Grafo com os gestor(es) do fundo
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .outE('gerido')
+```
+![Grafo](resultados-consulta/2-gestores-fundo.png "Grafo")
+
+### Gestor(es) do fundo (formato JSON)
+
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .out('gerido')
+    .project('cpf_cnpj','nome')
+    .by('cpf_cnpj')
+    .by('nome')
+```
+[Resultado](resultados-consulta/2-gestores-fundo.json)
+
+## 2.1. Fundos de mesmos gestores
+
+### Grafo com fundos de mesmo(s) gestor(es)
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .out('gerido')
+    .inE('gerido')
+```
+![Grafo](resultados-consulta/2-1-fundos-mesmo-gestor.png "Grafo")
+
+### Fundos de mesmo(s) gestor(es) (formato JSON)
+
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .out('gerido')
+    .in('gerido')
+    .project('cnpj','nome')
+    .by('cnpj')
+    .by('nome')
+```
+[Resultado](resultados-consulta/2-1-fundos-mesmo-gestor.json)
+
+## 3. Composição da carteira
+
+## 3.1. Carteira de ativos
+
+### Grafo com as aplicações do fundo em ativos financeiros e respectivos emissores (quando identificados)
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .union(
+    outE('aplicacao_ativo'),
+    out('aplicacao_ativo').outE('emitido')
+    )
+```
+![Grafo](resultados-consulta/3-1-carteira-ativos.png "Grafo")
+
+### Aplicações do fundo em ativos financeiros e respectivos emissores (quando identificados) (formato JSON)
+
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .outE('aplicacao_ativo')
+    .project('ativo','isin','ticker','pr_patrimonio_liquido','mercado_negociacao','pais','data_vencimento','cpf_cnpj_emissor','emissor')
+    .by(coalesce(__.inV().values('descricao'),constant('-')))
+    .by(coalesce(__.inV().values('isin'),constant('-')))
+    .by(coalesce(__.inV().values('ticker'),constant('-')))
+    .by('pr_patrimonio_liquido')
+    .by(coalesce(__.inV().values('mercado_negociacao'),constant('-')))
+    .by(coalesce(__.inV().values('pais'),constant('-')))
+    .by(coalesce(__.inV().values('data_vencimento'),constant('-')))
+    .by(coalesce(__.inV().out('emitido').values('cpf_cnpj'),constant('-')))
+    .by(coalesce(__.inV().out('emitido').values('nome'),constant('-')))
+```
+[Resultado](resultados-consulta/3-1-carteira-ativos.json)
+
+## 3.2. Carteira de fundos investidos
+
+### Grafo com as aplicações do fundo em cotas de outros fundos
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .outE('aplicacao_fundo')
+```
+![Grafo](resultados-consulta/3-2-carteira-cotas.png "Grafo")
+
+### Aplicações do fundo em cotas de outros fundos (formato JSON)
+
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .outE('aplicacao_fundo')
+    .project('cnpj_fundo_aplicado','fundo_aplicado','tipo','pr_patrimonio_liquido')
+    .by(__.inV().values('cnpj'))
+    .by(__.inV().values('nome'))
+    .by(__.inV().values('tipo'))
+    .by('pr_patrimonio_liquido')
+```
+[Resultado](resultados-consulta/3-2-carteira-cotas.json)
+
+## 3.2.1. Fundos investidos e seus gestores
+
+### Grafo com as aplicações do fundo em cotas de outros fundos e respectivos gestores (quando identificados)
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .union(
+    outE('gerido'),
+    outE('aplicacao_fundo'),
+    out('aplicacao_fundo').outE('gerido')
+    )
+```
+![Grafo](resultados-consulta/3-2-1-fundos-cotas-gestores.png "Grafo")
+
+### Aplicações do fundo em cotas de outros fundos e respectivos gestores (quando identificados)
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .union(
+        out('gerido')
+            .project('cpf_cnpj_gestor_fundo','gestor_fundo')
+                .by('cpf_cnpj')
+                .by('nome'),
+        outE('aplicacao_fundo')
+        .union(
+            project('cnpj_fundo_aplicado','fundo_aplicado','pr_patrimonio_liquido')
+                .by(__.inV().values('cnpj'))
+                .by(__.inV().values('nome'))
+                .by('pr_patrimonio_liquido'),
+            inV().as('aplicacao_fundo').out('gerido')
+                .project('cnpj_fundo_aplicado','cpf_cnpj_gestor_fundo_aplicado','gestor_fundo_aplicado')
+                .by(select('aplicacao_fundo').values('cnpj'))
+                .by(coalesce(values('cpf_cnpj')))
+                .by(coalesce(values('nome')))
+        )
+    )
+```
+[Resultado](resultados-consulta/3-2-1-fundos-cotas-gestores.json)
+
+## 3.3. Carteira consolidada (ativos e fundos investidos)
+
+Aplicações do fundo: ativos financeiros e respectivos emissores (quando identificados) e cotas de outros fundos
+
+### Grafo com todas as aplicações do fundo
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .union(
+    
+        // ativos na carteira
+        outE('aplicacao_ativo'),
+
+        // emissores dos ativos na carteira
+        outE('aplicacao_ativo')
+            .inV().outE('emitido'),
+            
+        // fundos investidos
+        outE('aplicacao_fundo')
+    )
+```
+![Grafo](resultados-consulta/3-3-carteira-consolidada.png "Grafo")
+
+### Aplicações do fundo
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .union(
+        // ativos na carteira e seus emissores
+        outE('aplicacao_ativo')
+            .project('ativo','isin','ticker','pr_patrimonio_liquido','mercado_negociacao','pais','data_vencimento','cpf_cnpj_emissor','emissor')
+            .by(coalesce(__.inV().values('descricao'),constant('-')))
+            .by(coalesce(__.inV().values('isin'),constant('-')))
+            .by(coalesce(__.inV().values('ticker'),constant('-')))
+            .by('pr_patrimonio_liquido')
+            .by(coalesce(__.inV().values('mercado_negociacao'),constant('-')))
+            .by(coalesce(__.inV().values('pais'),constant('-')))
+            .by(coalesce(__.inV().values('data_vencimento'),constant('-')))
+            .by(coalesce(__.inV().out('emitido').values('cpf_cnpj'),constant('-')))
+            .by(coalesce(__.inV().out('emitido').values('nome'),constant('-'))),
+
+        // fundos investidos
+        outE('aplicacao_fundo').as('aplicacao_fundo')
+            .project('cnpj_fundo','fundo','tipo','pr_patrimonio_liquido')
+            .by(__.inV().values('cnpj'))
+            .by(__.inV().values('nome'))
+            .by(__.inV().values('tipo'))
+            .by('pr_patrimonio_liquido')
+            )
+```
+[Resultado](resultados-consulta/3-3-carteira-consolidada.json)
+
+## 3.4. Carteira expandida (ativos e fundos investidos direta ou diretamente) - Nível 1
+
+Aplicações do fundo: ativos financeiros e respectivos emissores (quando identificados), cotas de outros fundos e os ativos que compõem a carteira dos fundos investidos). 
+
+A busca no grafo atravessa as arestas aplicacao_fundo, apenas uma vez (nível de profundidade = 1).
+
+Para não poluir o grafo, não são incluídas as aplicações que representam entre -0.5% e 0.5% do patrimônio líquido do fundo. (O percentual do patrimônio líquido representado pela aplicação pode ser negativo).
+
+### Valor percentual limite para filtrar as aplicações, em relação ao patrimônio líquido do fundo
+```
+def limiar_pr_pl=0.5
+```
+### Grafo com a carteira expandida do fundo
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .union(
+        // ativos na carteira
+        outE('aplicacao_ativo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl)), 
+
+        // emissores dos ativos na carteira
+        outE('aplicacao_ativo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl))
+        .inV().outE('emitido'),
+            
+        // fundos investidos
+        outE('aplicacao_fundo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl)),
+
+        // ativos nas carteiras dos fundos investidos
+        outE('aplicacao_fundo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl))
+        .inV().outE('aplicacao_ativo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl)),
+            
+        // emissores dos ativos nas carteiras dos fundos investidos
+        outE('aplicacao_fundo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl))
+        .inV().outE('aplicacao_ativo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl))
+        .inV().outE('emitido')
+    )
+```
+![Grafo](resultados-consulta/3-4-carteira-expandida.png "Grafo")
+
+### Carteira expandida do fundo
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .union(
+        // ativos na carteira e seus emissores
+        outE('aplicacao_ativo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl))
+        .project('ativo','isin','ticker','pr_patrimonio_liquido','mercado_negociacao','pais','data_vencimento','cpf_cnpj_emissor','emissor')
+            .by(coalesce(__.inV().values('descricao'),constant('-')))
+            .by(coalesce(__.inV().values('isin'),constant('-')))
+            .by(coalesce(__.inV().values('ticker'),constant('-')))
+            .by('pr_patrimonio_liquido')
+            .by(coalesce(__.inV().values('mercado_negociacao'),constant('-')))
+            .by(coalesce(__.inV().values('pais'),constant('-')))
+            .by(coalesce(__.inV().values('data_vencimento'),constant('-')))
+            .by(coalesce(__.inV().out('emitido').values('cpf_cnpj'),constant('-')))
+            .by(coalesce(__.inV().out('emitido').values('nome'),constant('-'))),
+
+        repeat(outE('aplicacao_fundo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl))
+            .as('aplicacao_fundo')
+        .inV())
+        .times(1).emit()
+        .union(
+            // fundos investidos 
+            project('cnpj_fundo_investidor','cnpj_fundo_investido','fundo_investido','tipo','pr_patrimonio_liquido_fundo')
+                .by(select('aplicacao_fundo').otherV().values('cnpj'))
+                .by('cnpj')
+                .by('nome')
+                .by('tipo')
+                .by(select('aplicacao_fundo').values('pr_patrimonio_liquido')),
+                
+            // ativos nas carteiras dos fundos investidos e seus emissores
+            outE('aplicacao_ativo')
+                .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl))
+            .project('cnpj_fundo_investido','ativo','isin','ticker','pr_patrimonio_liquido_ativo','mercado_negociacao','pais','data_vencimento','cpf_cnpj_emissor','emissor')
+                .by(select('aplicacao_fundo').inV().values('cnpj'))
+                .by(coalesce(__.inV().values('descricao'),constant('-')))
+                .by(coalesce(__.inV().values('isin'),constant('-')))
+                .by(coalesce(__.inV().values('ticker'),constant('-')))
+                .by('pr_patrimonio_liquido')
+                .by(coalesce(__.inV().values('mercado_negociacao'),constant('-')))
+                .by(coalesce(__.inV().values('pais'),constant('-')))
+                .by(coalesce(__.inV().values('data_vencimento'),constant('-')))
+                .by(coalesce(__.inV().out('emitido').values('cpf_cnpj'),constant('-')))
+                .by(coalesce(__.inV().out('emitido').values('nome'),constant('-')))            
+            )
+        )
+```
+[Resultado](resultados-consulta/3-4-carteira-expandida.json)
+
+## 3.5. Carteira expandida (ativos e fundos investidos direta ou diretamente) - Nível 2
+
+Aplicações do fundo: ativos financeiros e respectivos emissores (quando identificados), cotas de outros fundos e os ativos que compõem a carteira dos fundos investidos). 
+
+A busca no grafo atravessa as arestas aplicacao_fundo 2 vezes (nível de profundidade = 2).
+
+Para não poluir o grafo, não são incluídas as aplicações que representam entre -0.5% e 0.5% do patrimônio líquido do fundo. (O percentual do patrimônio líquido representado pela aplicação pode ser negativo).
+
+### Grafo com a carteira expandida do fundo
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .union(
+        // ativos na carteira 
+        outE('aplicacao_ativo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl)), 
+
+        // emissores dos ativos na carteira 
+        outE('aplicacao_ativo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl))
+        .inV().outE('emitido'),
+		
+        // fundos investidos 
+        repeat(outE('aplicacao_fundo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl))
+            .as('aplicacao_fundo')
+        .inV())
+        .times(2).emit().dedup()
+        .select('aplicacao_fundo'),
+
+        // ativos nas carteiras dos fundos investidos 
+        repeat(outE('aplicacao_fundo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl))
+            .as('aplicacao_fundo')
+        .inV())
+        .times(2).emit().dedup()
+        .outE('aplicacao_ativo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl)),
+
+        // emissores dos ativos nas carteiras dos fundos investidos 
+        repeat(outE('aplicacao_fundo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl))
+            .as('aplicacao_fundo')
+        .inV())
+        .times(2).emit().dedup()
+        .outE('aplicacao_ativo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl))
+        .inV().outE('emitido')
+    )
+```
+![Grafo](resultados-consulta/3-5-carteira-expandida.png "Grafo")
+
+### Carteira expandida do fundo
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .union(
+        // ativos na carteira e seus emissores
+        outE('aplicacao_ativo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl))
+        .project('ativo','isin','ticker','pr_patrimonio_liquido','mercado_negociacao','pais','data_vencimento','cpf_cnpj_emissor','emissor')
+            .by(coalesce(__.inV().values('descricao'),constant('-')))
+            .by(coalesce(__.inV().values('isin'),constant('-')))
+            .by(coalesce(__.inV().values('ticker'),constant('-')))
+            .by('pr_patrimonio_liquido')
+            .by(coalesce(__.inV().values('mercado_negociacao'),constant('-')))
+            .by(coalesce(__.inV().values('pais'),constant('-')))
+            .by(coalesce(__.inV().values('data_vencimento'),constant('-')))
+            .by(coalesce(__.inV().out('emitido').values('cpf_cnpj'),constant('-')))
+            .by(coalesce(__.inV().out('emitido').values('nome'),constant('-'))),
+
+        repeat(outE('aplicacao_fundo')
+            .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl))
+            .as('aplicacao_fundo')
+        .inV())
+        .times(2).emit().dedup()
+        .union(
+            // fundos investidos 
+            project('cnpj_fundo_investidor','cnpj_fundo_investido','fundo_investido','tipo','pr_patrimonio_liquido_fundo')
+                .by(select('aplicacao_fundo').otherV().values('cnpj'))
+                .by('cnpj')
+                .by('nome')
+                .by('tipo')
+                .by(select('aplicacao_fundo').values('pr_patrimonio_liquido')),
+                
+            // ativos nas carteiras dos fundos investidos e seus emissores
+            outE('aplicacao_ativo')
+                .has('pr_patrimonio_liquido',outside(-limiar_pr_pl,limiar_pr_pl))
+            .project('cnpj_fundo_investido','ativo','isin','ticker','pr_patrimonio_liquido_ativo','mercado_negociacao','pais','data_vencimento','cpf_cnpj_emissor','emissor')
+                .by(select('aplicacao_fundo').inV().values('cnpj'))
+                .by(coalesce(__.inV().values('descricao'),constant('-')))
+                .by(coalesce(__.inV().values('isin'),constant('-')))
+                .by(coalesce(__.inV().values('ticker'),constant('-')))
+                .by('pr_patrimonio_liquido')
+                .by(coalesce(__.inV().values('mercado_negociacao'),constant('-')))
+                .by(coalesce(__.inV().values('pais'),constant('-')))
+                .by(coalesce(__.inV().values('data_vencimento'),constant('-')))
+                .by(coalesce(__.inV().out('emitido').values('cpf_cnpj'),constant('-')))
+                .by(coalesce(__.inV().out('emitido').values('nome'),constant('-')))            
+            )
+        )
+```
+[Resultado](resultados-consulta/3-5-carteira-expandida.json)
+
