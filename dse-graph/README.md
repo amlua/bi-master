@@ -1,6 +1,12 @@
-# Configuração, carga e análise do banco de dados de grafos
+# Configuração e carga do banco de dados de grafos
 
 * [Roteiro de instalação e configuração das ferramentas Datastax Enterprise](instalacao-dse-tools.md)
 * [Roteiro de criação do grafo __carteira_fundos__](criacao-grafo-esquema.md)
 * [Roteiro para carga de dados no grafo __carteira_fundos__](carga-dados.md)
 * [Análise exploratória do grafo __carteira_fundos__](analise-grafo.md)
+* [Consultas ao grafo __carteira_fundos__](consulta-grafo.md)
+
+# Análise e consultas ao grafo
+
+* [Análise exploratória do grafo __carteira_fundos__](analise-grafo.md)
+* [Consultas ao grafo __carteira_fundos__](consulta-grafo.md)
