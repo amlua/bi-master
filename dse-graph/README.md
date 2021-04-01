@@ -13,4 +13,5 @@
   * [Getting Started](https://tinkerpop.apache.org/docs/3.4.10/tutorials/getting-started/)
   * [Gremlin’s Anatomy](https://tinkerpop.apache.org/docs/current/tutorials/gremlins-anatomy/)
   * [Recipes](https://tinkerpop.apache.org/docs/current/recipes/#_recipes)
+  * [PRACTICAL GREMLIN: An Apache TinkerPop Tutorial](http://kelvinlawrence.net/book/Gremlin-Graph-Guide.html)
 
