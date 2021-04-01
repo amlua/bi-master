@@ -2,7 +2,7 @@
 
 Para ser executado no prompt de comando do servidor DSE Graph.
 
-Os dados para carga estão no formato csv ([dse-load-files.tar.gz](dse-load-files.tar.gz)) e são resultado da execução do notebook [Carteiras de Fundos de Investimento: Obtenção e preparação dos dados](../dados-abertos/download-preparacao.ipynb).
+Os dados para carga estão no formato csv ([dse-load-files.tar.gz](dse-load-files.tar.gz)) e são resultado da execução do notebook [Carteiras de Fundos de Investimento: Obtenção e preparação dos dados](../dados-abertos/download-preparacao.ipynb) em 31/03/2021 (posição da carteira dos fundos: 11/2020).
 
 ```sh
 cd ~
