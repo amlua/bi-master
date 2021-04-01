@@ -2,15 +2,10 @@
 
 Para ser executado em uma console Gremlin (por exemplo, em células de um [notebook Datastax Studio](BI-Master-consulta-grafo.studio-nb.tar)).
 
-Referências: 
-
-[Getting Started](https://tinkerpop.apache.org/docs/3.4.10/tutorials/getting-started/)
-
-[Gremlin’s Anatomy](https://tinkerpop.apache.org/docs/current/tutorials/gremlins-anatomy/)
-
-[Recipes](https://tinkerpop.apache.org/docs/current/recipes/#_recipes)
-
-[PRACTICAL GREMLIN: An Apache TinkerPop Tutorial](http://kelvinlawrence.net/book/Gremlin-Graph-Guide.html)
+Esta página apresenta o código das consultas Gremlin e os resultados obtidos usando como parâemtros os seguintes vértices do grafo:
+* Fundo [CNPJ: 30.509.286/0001-04 (VITREO FOF MELHORES FUNDOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO MULTIMERCADO CP)](https://cvmweb.cvm.gov.br/SWB/Sistemas/SCW/CPublica/CConsolFdo/ResultBuscaParticFdo.aspx?CNPJNome=30.509.286/0001-04)
+* Fundo [CNPJ: 08.912.591/0001-85 (JGP MAX FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO MULTIMERCADO)](https://cvmweb.cvm.gov.br/SWB/Sistemas/SCW/CPublica/CConsolFdo/ResultBuscaParticFdo.aspx?CNPJNome=08.912.591/0001-85)
+* Ativo [ISIN: BRVIVTDBS069 (DEBENTURES SIMPLES TELEFONICA BRASIL SA)](http://bvmf.bmfbovespa.com.br/consulta-isin/DetalheCodigosIsin.aspx?idioma=pt-BR&codigo=BRVIVTDBS069)
 
 ## 1. Dados cadastrais e patrimônio líquido do fundo
 
