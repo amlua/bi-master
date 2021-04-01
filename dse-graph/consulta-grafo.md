@@ -13,13 +13,20 @@ Referências:
 [PRACTICAL GREMLIN: An Apache TinkerPop Tutorial](http://kelvinlawrence.net/book/Gremlin-Graph-Guide.html)
 
 ## 1. Dados cadastrais e patrimônio líquido do fundo
+
+### Definição do fundo para consulta
+```
+def cnpj_fundo='30.509.286/0001-04'
+```
+### Vértice do fundo
 ```
 g.V()
     .hasLabel('fundo')
     .has('cnpj',cnpj_fundo)
 ```
-[Resultado](resultados-consulta/1-vertice-fundo.png)
+![Vértice](resultados-consulta/1-fundo.png "Vértice")
 
+### Propriedades do fundo (formato JSON)
 ```
 g.V()
     .hasLabel('fundo')
@@ -33,7 +40,29 @@ g.V()
     .by(coalesce(values('situacao'), constant('-')))
     .by(coalesce(values('patrimonio_liquido'), constant('-')))
 ```
-
-[Resultado](resultados-consulta/1-propriedades-fundo.json)
+[Resultado](resultados-consulta/1-fundo.json)
 
 ## 2. Gestores do fundo
+
+### Grafo com os gestor(es) do fundo
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .outE('gerido')
+```
+![Grafo](resultados-consulta/2-gestores-fundo.png "Grafo")
+
+### Gestor(es) do fundo (formato JSON)
+
+```
+g.V()
+    .hasLabel('fundo')
+    .has('cnpj',cnpj_fundo)
+    .out('gerido')
+    .project('cpf_cnpj','nome')
+    .by('cpf_cnpj')
+    .by('nome')
+```
+[Resultado](resultados-consulta/2-gestores-fundo.json)
+
