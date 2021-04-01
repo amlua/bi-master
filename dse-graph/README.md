@@ -8,6 +8,7 @@
 
 * [Análise exploratória do grafo __carteira_fundos__](analise-grafo.md)
 * [Consultas ao grafo __carteira_fundos__](consulta-grafo.md)
+ 
 * Referências:
   * [Getting Started](https://tinkerpop.apache.org/docs/3.4.10/tutorials/getting-started/)
   * [Gremlin’s Anatomy](https://tinkerpop.apache.org/docs/current/tutorials/gremlins-anatomy/)
