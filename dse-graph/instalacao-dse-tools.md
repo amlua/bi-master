@@ -63,8 +63,8 @@ Referência: [Installing DataStax Studio 6.8](https://docs.datastax.com/en/insta
 ```sh
 cd ~
 tar zvxf datastax-studio-6.8.9.tar.gz
-cd ~/datastax-studio-6.8.9/
 ```
+
 ### Configuração customizada
 
 Para permitir o acesso externo ao Datastax Studio, alterar a diretiva ```httpBindAddress``` no arquivo ```~/datastax-studio-6.8.9/conf/configuration.yaml``` (somente em ambiente de laboratório):
