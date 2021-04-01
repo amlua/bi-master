@@ -2,7 +2,7 @@
 
 Para ser executado em uma console Gremlin (por exemplo, em células de um [notebook Datastax Studio](BI-Master-consulta-grafo.studio-nb.tar)).
 
-Esta página apresenta o código das consultas Gremlin e os resultados obtidos usando como parâemtros os seguintes vértices do grafo:
+Esta página apresenta o código das consultas Gremlin e os resultados obtidos para os seguintes vértices do grafo:
 * Fundo [CNPJ: 30.509.286/0001-04 (VITREO FOF MELHORES FUNDOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO MULTIMERCADO CP)](https://cvmweb.cvm.gov.br/SWB/Sistemas/SCW/CPublica/CConsolFdo/ResultBuscaParticFdo.aspx?CNPJNome=30.509.286/0001-04)
 * Fundo [CNPJ: 08.912.591/0001-85 (JGP MAX FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO MULTIMERCADO)](https://cvmweb.cvm.gov.br/SWB/Sistemas/SCW/CPublica/CConsolFdo/ResultBuscaParticFdo.aspx?CNPJNome=08.912.591/0001-85)
 * Ativo [ISIN: BRVIVTDBS069 (DEBENTURES SIMPLES TELEFONICA BRASIL SA)](http://bvmf.bmfbovespa.com.br/consulta-isin/DetalheCodigosIsin.aspx?idioma=pt-BR&codigo=BRVIVTDBS069)
