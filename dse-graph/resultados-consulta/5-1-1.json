@@ -1,0 +1,626 @@
+[
+  {
+    "ativo": "Opções - Posições lançadas - Opção de venda - VIVTM925 - 18/01/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Valores a pagar - Outros - Valores a Pagar - Posição Vendida de VIVT4",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Valores a receber - Outros - VIVT DIVID",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BRVIVTACNOR0",
+    "ticker": "VIVT3",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições titulares - Opção de venda - VIVTX960",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de venda - VIVTM930",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de compra - VIVTA950",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/26/01/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/03/12/2020",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/24/05/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de venda - VIVTW430 - 16/11/2020",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Valores a receber - Outros - VIVT DIV/JRS",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições titulares - Opção de venda - VIVTX920 - 21/12/2020",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Obrigações por ações e outros TVM recebidos em empréstimo - Ação ordinária - VIVT3 - TELEF BRASIL - VIVT3",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/23/02/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Ações - Ação ordinária - TELEF BRASILON  EJ",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/28/12/2020",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/20/04/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de compra - VIVTJ470 - 19/10/2020",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Valores a pagar - Outros - PROV.JSCP VIVT4",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Ações - Ação ordinária - Ações - VIVT3",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/18/01/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de compra - VIVTL960",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/25/11/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de compra - VIVTL940",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/23/03/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/01/02/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/15/03/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Ações - Ação preferencial - Acao Preferencial",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de compra - VIVTL920 - 21/12/2020",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições titulares - Opção de venda - VIVTX970",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições titulares - Opção de venda - VIVTX940",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de compra - VIVTL980",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/09/03/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições titulares - Opção de compra - VIVTL965 - 21/12/2020",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de compra - VIVTL920",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de venda - VIVTX950",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de compra - VIVTA940",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de venda - VIVTX930",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Ações - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/02/03/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições titulares - Opção de venda - VIVTM920",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Debêntures - Debênture simples",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "2022-02-08"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/21/12/2020",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de compra - VIVTA990",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições titulares - Opção de venda - VIVTX920",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições titulares - Opção de venda - VIVTM940",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de compra - VIVTA970",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições titulares - Opção de venda - VIVTX910",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/01/03/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/29/01/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Ações - Ação preferencial - VIVT/VIVT4/BRVIVTACNPR7",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/08/02/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Valores a receber - Outros - TELEF BRASIL DIREITOS",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/05/03/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de venda - VIVTX450 - 21/12/2020",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Ações - Ação ordinária - VIVT3 - TELEF BRASIL - VIVT3",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/17/02/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de compra - VIVTL930",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Ações e outros TVM cedidos em empréstimo - Ação ordinária - Ações - VIVT3",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de compra - VIVTL950",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Obrigações por compra a termo a pagar - Ação ordinária - VIVT3",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições titulares - Opção de venda - VIVTX905",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Ações e outros TVM cedidos em empréstimo - Ação ordinária - VIVT3 - TELEF BRASIL - VIVT3",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/14/12/2020",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de compra - VIVTL990",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Obrigações por ações e outros TVM recebidos em empréstimo - Ação ordinária - VIVT3",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/29/03/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/23/12/2020",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições titulares - Opção de compra - VIVTJ500 - 19/10/2020",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/11/01/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de venda - VIVTM950",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Valores a pagar - Outros - Valores a Pagar - Posição Vendida de VIVT3",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Ações - Ação preferencial - Ações - VIVT4",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Valores a pagar - Outros - VIVT3",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Vendas a termo a receber - Ação ordinária - VIVT/VIVT3/BRVIVTACNOR0/02/02/2021",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "DEBENTURES SIMPLES DEBENTURES SIMPLES QUINTA EMISSAO SERIE UNICA",
+    "isin": "BRVIVTDBS069",
+    "ticker": "VIVT15",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  },
+  {
+    "ativo": "Opções - Posições lançadas - Opção de compra - VIVTL970",
+    "isin": "-",
+    "ticker": "-",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-"
+  }
+]

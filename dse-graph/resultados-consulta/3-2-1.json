@@ -1,0 +1,181 @@
+[
+  {
+    "cpf_cnpj_gestor_fundo": "06.195.084/0001-42",
+    "gestor_fundo": "VITREO GESTÃO DE RECURSOS LTDA"
+  },
+  {
+    "cnpj_fundo_aplicado": "10.565.506/0001-00",
+    "fundo_aplicado": "SANTANDER CASH BLUE FUNDO DE INVESTIMENTO RENDA FIXA REFERENCIADO DI",
+    "pr_patrimonio_liquido": "4.492"
+  },
+  {
+    "cnpj_fundo_aplicado": "10.565.506/0001-00",
+    "cpf_cnpj_gestor_fundo_aplicado": "10.231.177/0001-52",
+    "gestor_fundo_aplicado": "SANTANDER BRASIL GESTÃO DE RECURSOS LTDA"
+  },
+  {
+    "cnpj_fundo_aplicado": "13.812.165/0001-00",
+    "fundo_aplicado": "JGP STRATEGY FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO MULTIMERCADO",
+    "pr_patrimonio_liquido": "4.385"
+  },
+  {
+    "cnpj_fundo_aplicado": "13.812.165/0001-00",
+    "cpf_cnpj_gestor_fundo_aplicado": "02.312.792/0001-65",
+    "gestor_fundo_aplicado": "JGP GESTÃO DE RECURSOS LTDA"
+  },
+  {
+    "cnpj_fundo_aplicado": "21.407.758/0001-19",
+    "fundo_aplicado": "IT NOW IBOVESPA FUNDO DE ÍNDICE",
+    "pr_patrimonio_liquido": "1.549"
+  },
+  {
+    "cnpj_fundo_aplicado": "21.407.758/0001-19",
+    "cpf_cnpj_gestor_fundo_aplicado": "60.701.190/0001-04",
+    "gestor_fundo_aplicado": "ITAU UNIBANCO S.A."
+  },
+  {
+    "cnpj_fundo_aplicado": "30.509.278/0001-50",
+    "fundo_aplicado": "VTR FOF MF FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO",
+    "pr_patrimonio_liquido": "57.907"
+  },
+  {
+    "cnpj_fundo_aplicado": "30.509.278/0001-50",
+    "cpf_cnpj_gestor_fundo_aplicado": "06.195.084/0001-42",
+    "gestor_fundo_aplicado": "VITREO GESTÃO DE RECURSOS LTDA"
+  },
+  {
+    "cnpj_fundo_aplicado": "31.457.486/0001-15",
+    "fundo_aplicado": "VTR SR FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO IE",
+    "pr_patrimonio_liquido": "3.807"
+  },
+  {
+    "cnpj_fundo_aplicado": "31.457.486/0001-15",
+    "cpf_cnpj_gestor_fundo_aplicado": "12.330.774/0001-60",
+    "gestor_fundo_aplicado": "SPX GESTÃO DE RECURSOS LTDA"
+  },
+  {
+    "cnpj_fundo_aplicado": "31.457.486/0001-15",
+    "cpf_cnpj_gestor_fundo_aplicado": "14.595.392/0001-93",
+    "gestor_fundo_aplicado": "SPX EQUITIES GESTÃO DE RECURSOS LTDA"
+  },
+  {
+    "cnpj_fundo_aplicado": "31.457.486/0001-15",
+    "cpf_cnpj_gestor_fundo_aplicado": "34.293.150/0001-52",
+    "gestor_fundo_aplicado": "SPX CRÉDITO GESTÃO DE RECURSOS LTDA."
+  },
+  {
+    "cnpj_fundo_aplicado": "32.711.748/0001-99",
+    "fundo_aplicado": "VTR KAPITALO ZETA FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO MULTIMERCADO",
+    "pr_patrimonio_liquido": "4.048"
+  },
+  {
+    "cnpj_fundo_aplicado": "32.711.748/0001-99",
+    "cpf_cnpj_gestor_fundo_aplicado": "11.180.009/0001-48",
+    "gestor_fundo_aplicado": "KAPITALO INVESTIMENTOS LTDA"
+  },
+  {
+    "cnpj_fundo_aplicado": "32.711.748/0001-99",
+    "cpf_cnpj_gestor_fundo_aplicado": "20.429.285/0001-98",
+    "gestor_fundo_aplicado": "KAPITALO CICLO GESTORA DE RECURSOS FINANCEIROS LTDA"
+  },
+  {
+    "cnpj_fundo_aplicado": "33.736.767/0001-32",
+    "fundo_aplicado": "VITREO CRIPTOMOEDAS FI EM COTAS DE FUNDO DE INVESTIMENTO MULTIMERCADO INVESTIMENTIMENTO NO EXTERIOR",
+    "pr_patrimonio_liquido": "0.609"
+  },
+  {
+    "cnpj_fundo_aplicado": "33.736.767/0001-32",
+    "cpf_cnpj_gestor_fundo_aplicado": "06.195.084/0001-42",
+    "gestor_fundo_aplicado": "VITREO GESTÃO DE RECURSOS LTDA"
+  },
+  {
+    "cnpj_fundo_aplicado": "33.736.845/0001-07",
+    "fundo_aplicado": "HASHDEX CRIPTOATIVOS VOYAGER FUNDO DE INVESTIMENTO MULTIMERCADO INVESTIMENTO NO EXTERIOR",
+    "pr_patrimonio_liquido": "0.622"
+  },
+  {
+    "cnpj_fundo_aplicado": "33.736.845/0001-07",
+    "cpf_cnpj_gestor_fundo_aplicado": "30.056.796/0001-65",
+    "gestor_fundo_aplicado": "HASHDEX GESTORA DE RECURSOS LTDA"
+  },
+  {
+    "cnpj_fundo_aplicado": "33.952.939/0001-05",
+    "fundo_aplicado": "VITREO DÓLAR FUNDO DE INVESTIMENTO CAMBIAL",
+    "pr_patrimonio_liquido": "4.166"
+  },
+  {
+    "cnpj_fundo_aplicado": "33.952.939/0001-05",
+    "cpf_cnpj_gestor_fundo_aplicado": "06.195.084/0001-42",
+    "gestor_fundo_aplicado": "VITREO GESTÃO DE RECURSOS LTDA"
+  },
+  {
+    "cnpj_fundo_aplicado": "34.218.574/0001-52",
+    "fundo_aplicado": "VITREO OURO FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "pr_patrimonio_liquido": "3.17"
+  },
+  {
+    "cnpj_fundo_aplicado": "34.218.574/0001-52",
+    "cpf_cnpj_gestor_fundo_aplicado": "06.195.084/0001-42",
+    "gestor_fundo_aplicado": "VITREO GESTÃO DE RECURSOS LTDA"
+  },
+  {
+    "cnpj_fundo_aplicado": "34.218.678/0001-67",
+    "fundo_aplicado": "AUGME 180 FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO",
+    "pr_patrimonio_liquido": "0.936"
+  },
+  {
+    "cnpj_fundo_aplicado": "34.218.678/0001-67",
+    "cpf_cnpj_gestor_fundo_aplicado": "23.360.896/0001-15",
+    "gestor_fundo_aplicado": "AUGME CAPITAL GESTÃO DE RECURSOS LTDA."
+  },
+  {
+    "cnpj_fundo_aplicado": "35.471.498/0001-55",
+    "fundo_aplicado": "TRIGONO FLAGSHIP 60 SMALL CAPS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO EM ACOES",
+    "pr_patrimonio_liquido": "0.963"
+  },
+  {
+    "cnpj_fundo_aplicado": "35.471.498/0001-55",
+    "cpf_cnpj_gestor_fundo_aplicado": "28.925.400/0001-27",
+    "gestor_fundo_aplicado": "TRÍGONO CAPITAL LTDA"
+  },
+  {
+    "cnpj_fundo_aplicado": "35.505.971/0001-78",
+    "fundo_aplicado": "SPX SEAHAWK FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO LP",
+    "pr_patrimonio_liquido": "0.976"
+  },
+  {
+    "cnpj_fundo_aplicado": "35.505.971/0001-78",
+    "cpf_cnpj_gestor_fundo_aplicado": "34.293.150/0001-52",
+    "gestor_fundo_aplicado": "SPX CRÉDITO GESTÃO DE RECURSOS LTDA."
+  },
+  {
+    "cnpj_fundo_aplicado": "35.820.586/0001-15",
+    "fundo_aplicado": "VITREO INFLAÇÃO LONGA FUNDO DE INVESTIMENTO RENDA FIXA",
+    "pr_patrimonio_liquido": "8.232"
+  },
+  {
+    "cnpj_fundo_aplicado": "35.820.586/0001-15",
+    "cpf_cnpj_gestor_fundo_aplicado": "06.195.084/0001-42",
+    "gestor_fundo_aplicado": "VITREO GESTÃO DE RECURSOS LTDA"
+  },
+  {
+    "cnpj_fundo_aplicado": "36.326.771/0001-10",
+    "fundo_aplicado": "ATMR II FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO DE AÇÕES",
+    "pr_patrimonio_liquido": "5.395"
+  },
+  {
+    "cnpj_fundo_aplicado": "36.326.771/0001-10",
+    "cpf_cnpj_gestor_fundo_aplicado": "10.957.035/0001-77",
+    "gestor_fundo_aplicado": "ATMOS CAPITAL GESTÃO DE RECURSOS LTDA"
+  },
+  {
+    "cnpj_fundo_aplicado": "38.417.971/0001-04",
+    "fundo_aplicado": "SPECTRA LATIN AMERICA PRIVATE EQUITY V FI MULTIMERCADO CRÉDITO PRIVADO INVESTIMENTO NO EXTERIOR",
+    "pr_patrimonio_liquido": "0.494"
+  },
+  {
+    "cnpj_fundo_aplicado": "38.417.971/0001-04",
+    "cpf_cnpj_gestor_fundo_aplicado": "44.011.526/0001-42",
+    "gestor_fundo_aplicado": "SPECTRA INVESTIMENTOS LTDA"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "ativo": "Disponibilidades - Outros - Disponibilidade",
+    "isin": "-",
+    "ticker": "-",
+    "pr_patrimonio_liquido": "0.001",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-",
+    "cpf_cnpj_emissor": "-",
+    "emissor": "-"
+  },
+  {
+    "ativo": "Valores a receber - Outros - Valores a Receber",
+    "isin": "-",
+    "ticker": "-",
+    "pr_patrimonio_liquido": "0.106",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-",
+    "cpf_cnpj_emissor": "-",
+    "emissor": "-"
+  },
+  {
+    "ativo": "Valores a pagar - Outros - Valores a Pagar",
+    "isin": "-",
+    "ticker": "-",
+    "pr_patrimonio_liquido": "-1.858",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-",
+    "cpf_cnpj_emissor": "-",
+    "emissor": "-"
+  }
+]

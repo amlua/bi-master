@@ -1,0 +1,719 @@
+[
+  {
+    "cnpj_fundo_investidor": "00.852.311/0001-89",
+    "fundo_investidor": "BB TOP DI RENDA FIXA REFERENCIADO DI LP FUNDO DE INVESTIMENTO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "126711428.78"
+  },
+  {
+    "cnpj_fundo_investidor": "00.974.902/0001-29",
+    "fundo_investidor": "FIVESTARS PREV FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "3416779.15"
+  },
+  {
+    "cnpj_fundo_investidor": "01.608.572/0001-10",
+    "fundo_investidor": "BB TOP RF MODERADO FUNDO DE INVESTIMENTO RENDA FIXA REFERENCIADO DI LONGO PRAZO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "59017105.45"
+  },
+  {
+    "cnpj_fundo_investidor": "02.010.153/0001-45",
+    "fundo_investidor": "BB FAPI FUNDO DE APOSENTADORIA PROGRAMADA INDIVIDUAL",
+    "tipo": "FAPI",
+    "valor_aplicacao_fundo": "601192.92"
+  },
+  {
+    "cnpj_fundo_investidor": "02.296.928/0001-90",
+    "fundo_investidor": "BB INSTITUCIONAL FUNDO DE INVESTIMENTO RENDA FIXA",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1001988.21"
+  },
+  {
+    "cnpj_fundo_investidor": "02.998.754/0001-08",
+    "fundo_investidor": "BB EXCLUSIVE 2 FUNDO DE INVESTIMENTO MULTIMERCADO LONGO PRAZO CREDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "6512923.35"
+  },
+  {
+    "cnpj_fundo_investidor": "03.369.970/0001-57",
+    "fundo_investidor": "ÁQUILA FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1052087.63"
+  },
+  {
+    "cnpj_fundo_investidor": "03.389.374/0001-39",
+    "fundo_investidor": "BB TOP RF ARROJADO FUNDO DE INVESTIMENTO RENDA FIXA LONGO PRAZO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "113264747.03"
+  },
+  {
+    "cnpj_fundo_investidor": "03.497.804/0001-36",
+    "fundo_investidor": "SANTANDER FUNDO DE INVESTIMENTO INSTITUCIONAL RENDA FIXA MIRANTE",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "3827595.00"
+  },
+  {
+    "cnpj_fundo_investidor": "03.499.367/0001-90",
+    "fundo_investidor": "WESTERN ASSET RENDA FIXA ATIVO FUNDO DE INVESTIMENTO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "24007632.98"
+  },
+  {
+    "cnpj_fundo_investidor": "03.693.695/0001-22",
+    "fundo_investidor": "BB ADVANTAGE 39 FUNDO DE INVESTIMENTO RENDA FIXA LONGO PRAZO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "8015905.66"
+  },
+  {
+    "cnpj_fundo_investidor": "03.888.387/0001-52",
+    "fundo_investidor": "WESTERN ASSET PONTA VERDE FUNDO DE INVESTIMENTO RENDA FIXA",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "551093.41"
+  },
+  {
+    "cnpj_fundo_investidor": "04.030.629/0001-35",
+    "fundo_investidor": "FUNDO DE INVESTIMENTO RENDA FIXA REFERENCIADO DI INSTITUCIONAL BLUE",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "3266481.60"
+  },
+  {
+    "cnpj_fundo_investidor": "04.087.328/0001-48",
+    "fundo_investidor": "IU WESTERN ASSET CORPORATE III - FUNDO DE INVESTIMENTO RENDA FIXA",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "821630.18"
+  },
+  {
+    "cnpj_fundo_investidor": "04.194.774/0001-51",
+    "fundo_investidor": "IU WESTERN ASSET CORPORATE RV 25 - FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "120238.56"
+  },
+  {
+    "cnpj_fundo_investidor": "04.511.306/0001-63",
+    "fundo_investidor": "IU WESTERN ASSET PERFORMANCE V FUNDO DE INVESTIMENTO RENDA FIXA",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "80159.04"
+  },
+  {
+    "cnpj_fundo_investidor": "04.588.085/0001-21",
+    "fundo_investidor": "JJSP FUND III FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "2665288.66"
+  },
+  {
+    "cnpj_fundo_investidor": "04.592.305/0001-90",
+    "fundo_investidor": "BB AGATA II FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "3607156.87"
+  },
+  {
+    "cnpj_fundo_investidor": "04.696.434/0001-29",
+    "fundo_investidor": "BB TERESINA FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1001988.02"
+  },
+  {
+    "cnpj_fundo_investidor": "04.885.403/0001-16",
+    "fundo_investidor": "FUNDO DE INVESTIMENTO MULTIMERCADO AGNES I",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "3326600.89"
+  },
+  {
+    "cnpj_fundo_investidor": "05.075.861/0001-52",
+    "fundo_investidor": "BB TOP EURO FUNDO DE INVESTIMENTO CAMBIAL LP",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1502982.31"
+  },
+  {
+    "cnpj_fundo_investidor": "05.217.490/0001-04",
+    "fundo_investidor": "MONTELLANO FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "6813519.89"
+  },
+  {
+    "cnpj_fundo_investidor": "05.584.087/0001-05",
+    "fundo_investidor": "CDA FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "761511.05"
+  },
+  {
+    "cnpj_fundo_investidor": "05.615.541/0001-48",
+    "fundo_investidor": "WESTERN ASSET INDEPENDENCE FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "841669.94"
+  },
+  {
+    "cnpj_fundo_investidor": "05.642.617/0001-24",
+    "fundo_investidor": "CHATEAUBRIAND FUNDO DE INVESTIMENTO RENDA FIXA PREVIDENCIÁRIO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "2194354.20"
+  },
+  {
+    "cnpj_fundo_investidor": "05.802.266/0001-71",
+    "fundo_investidor": "AGPREV PGBL FUNDO DE INVESTIMENTO RENDA FIXA PREVIDENCIÁRIO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "3116182.74"
+  },
+  {
+    "cnpj_fundo_investidor": "06.006.188/0001-61",
+    "fundo_investidor": "BB TOP DI C RENDA FIXA REFERENCIADO DI FUNDO DE INVESTIMENTO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "74598022.09"
+  },
+  {
+    "cnpj_fundo_investidor": "06.015.421/0001-72",
+    "fundo_investidor": "BB TOP CREDITO PRIVADO FUNDO DE INVESTIMENTO DE RENDA FIXA LONGO PRAZO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "10861552.17"
+  },
+  {
+    "cnpj_fundo_investidor": "07.047.876/0001-32",
+    "fundo_investidor": "POLARIS FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO INVESTIMENTO NO EXTERIOR",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "2003976.04"
+  },
+  {
+    "cnpj_fundo_investidor": "07.098.323/0001-09",
+    "fundo_investidor": "BB PROFETA FUNDO DE INVESTIMENTO MULTIMERCADO CREDITO PRIVADO  LONGO PRAZO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "4809543.39"
+  },
+  {
+    "cnpj_fundo_investidor": "07.377.701/0001-93",
+    "fundo_investidor": "MBPREV III MULTIMERCADO - FUNDO DE INVESTIMENTO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1202385.62"
+  },
+  {
+    "cnpj_fundo_investidor": "07.593.967/0001-73",
+    "fundo_investidor": "BRASILPREV TOP TP FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "259404727.17"
+  },
+  {
+    "cnpj_fundo_investidor": "07.672.399/0001-04",
+    "fundo_investidor": "WESTERN ASSET MULTIMERCADO INSTITUCIONAL FUNDO DE INVESTIMENTO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "490974.13"
+  },
+  {
+    "cnpj_fundo_investidor": "07.672.408/0001-59",
+    "fundo_investidor": "LUCERNE FUNDO DE INVESTIMENTO MULTIMERCADO CREDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1492962.15"
+  },
+  {
+    "cnpj_fundo_investidor": "07.892.341/0001-68",
+    "fundo_investidor": "MULTIPREV II FUNDO DE INVESTIMENTO MULTIMERCADO CREDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "10150138.65"
+  },
+  {
+    "cnpj_fundo_investidor": "07.894.727/0001-09",
+    "fundo_investidor": "WESTERN ASSET PREV FIX FUNDO DE INVESTIMENTO RENDA FIXA CREDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1883737.48"
+  },
+  {
+    "cnpj_fundo_investidor": "08.038.910/0001-75",
+    "fundo_investidor": "BB TOP MULTI INSTITUCIONAL LP FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1001988.21"
+  },
+  {
+    "cnpj_fundo_investidor": "08.252.580/0001-16",
+    "fundo_investidor": "ASPECIR PGBL FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO PREVIDENCIÁRIO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "320636.23"
+  },
+  {
+    "cnpj_fundo_investidor": "08.296.906/0001-07",
+    "fundo_investidor": "CSHG UNICRED DINÂMICO FUNDO DE INVESTIMENTO MULTIMERCADO - CRED PRIV IE",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "601192.81"
+  },
+  {
+    "cnpj_fundo_investidor": "08.759.871/0001-03",
+    "fundo_investidor": "FUNDO DE INVESTIMENTO RENDA FIXA FAELCE BITUPITÁ",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1272525.04"
+  },
+  {
+    "cnpj_fundo_investidor": "08.759.915/0001-97",
+    "fundo_investidor": "DELFOS CRÉDITO PRIVADO MULTIMERCADO FUNDO DE INVESTIMENTO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1022027.78"
+  },
+  {
+    "cnpj_fundo_investidor": "09.087.708/0001-04",
+    "fundo_investidor": "WESTERN ASSET PREV CREDIT RENDA FIXA FUNDO DE INVESTIMENTO CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "56532164.12"
+  },
+  {
+    "cnpj_fundo_investidor": "09.181.291/0001-36",
+    "fundo_investidor": "XCVI FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "300596.41"
+  },
+  {
+    "cnpj_fundo_investidor": "09.329.721/0001-14",
+    "fundo_investidor": "CSHG DI MASTER FUNDO DE INVESTIMENTO RENDA FIXA REFERENCIADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1152286.22"
+  },
+  {
+    "cnpj_fundo_investidor": "09.605.786/0001-45",
+    "fundo_investidor": "BB TOP MULTI LP ABSOLUTO FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "801590.57"
+  },
+  {
+    "cnpj_fundo_investidor": "09.613.212/0001-19",
+    "fundo_investidor": "BOSCH BRASIL VII FUNDO DE INVESTIMENTO RENDA FIXA PREVIDENCIÁRIO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "2535029.69"
+  },
+  {
+    "cnpj_fundo_investidor": "09.639.927/0001-40",
+    "fundo_investidor": "ELS QUATRE GATS FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO INVESTIMENTO NO EXTERIOR",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "200397.60"
+  },
+  {
+    "cnpj_fundo_investidor": "10.264.179/0001-48",
+    "fundo_investidor": "RT ENDURANCE MULTIMERCADO CRÉDITO PRIVADO - FUNDO DE INVESTIMENTO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "18236181.97"
+  },
+  {
+    "cnpj_fundo_investidor": "10.277.933/0001-84",
+    "fundo_investidor": "CSHG NEW 511 FUNDO DE INVESTIMENTO MULTIMERCADO - CRÉDITO PRIVADO INVESTIMENTO NO EXTERIOR",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1001988.02"
+  },
+  {
+    "cnpj_fundo_investidor": "10.418.362/0001-50",
+    "fundo_investidor": "BB PREVIDENCIÁRIO MULTIMERCADO FUNDO DE INVESTIMENTO LONGO PRAZO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1202385.85"
+  },
+  {
+    "cnpj_fundo_investidor": "10.643.489/0001-73",
+    "fundo_investidor": "MARTE FUNDO DE INVESTIMENTO MULTIMERCADO - CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1953876.64"
+  },
+  {
+    "cnpj_fundo_investidor": "11.052.415/0001-25",
+    "fundo_investidor": "BB TOP MULTIMERCADO BALANCEADO FUNDO DE INVESTIMENTO LONGO PRAZO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1001988.21"
+  },
+  {
+    "cnpj_fundo_investidor": "11.419.555/0001-99",
+    "fundo_investidor": "RT RELIANT MULTIMERCADO CRÉDITO PRIVADO FUNDO DE INVESTIMENTO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "9378607.87"
+  },
+  {
+    "cnpj_fundo_investidor": "11.492.193/0001-61",
+    "fundo_investidor": "SANTANDER FUNDO DE INVESTIMENTO FAROL RENDA FIXA CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "5510935.21"
+  },
+  {
+    "cnpj_fundo_investidor": "13.425.746/0001-99",
+    "fundo_investidor": "GENERATION FUNDO DE INVESTIMENTO RENDA FIXA",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "901789.22"
+  },
+  {
+    "cnpj_fundo_investidor": "13.969.771/0001-33",
+    "fundo_investidor": "ÁQUILA 4 FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "751491.16"
+  },
+  {
+    "cnpj_fundo_investidor": "13.998.573/0001-06",
+    "fundo_investidor": "BB TERRA DO SOL FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1001988.21"
+  },
+  {
+    "cnpj_fundo_investidor": "14.356.961/0001-48",
+    "fundo_investidor": "FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO VALUE PREV CMA III",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "3366679.75"
+  },
+  {
+    "cnpj_fundo_investidor": "14.359.654/0001-10",
+    "fundo_investidor": "FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO VALUE PREV SC III",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "521033.77"
+  },
+  {
+    "cnpj_fundo_investidor": "14.399.722/0001-75",
+    "fundo_investidor": "GERDAU PREVIDÊNCIA FUNDO DE INVESTIMENTO RENDA FIXA CREDITO PRIVADO 4",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "8256381.29"
+  },
+  {
+    "cnpj_fundo_investidor": "14.466.898/0001-00",
+    "fundo_investidor": "BRASIL CORPORATE FI RENDA FIXA CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "4348628.01"
+  },
+  {
+    "cnpj_fundo_investidor": "15.259.169/0001-38",
+    "fundo_investidor": "WESTERN ASSET GROWTH FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "611212.69"
+  },
+  {
+    "cnpj_fundo_investidor": "15.350.679/0001-16",
+    "fundo_investidor": "BRASIL PLURAL HIGH YIELD FUNDO DE INVESTIMENTO RENDA FIXA - CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "4669264.18"
+  },
+  {
+    "cnpj_fundo_investidor": "15.477.858/0001-19",
+    "fundo_investidor": "MULTIPREV I FUNDO DE INVESTIMENTO MULTIMERCADO CREDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "25280157.76"
+  },
+  {
+    "cnpj_fundo_investidor": "15.487.311/0001-02",
+    "fundo_investidor": "BRASIL PLURAL CRÉDITO CORPORATIVO FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO LONGO PRAZO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "4539005.73"
+  },
+  {
+    "cnpj_fundo_investidor": "15.802.570/0001-72",
+    "fundo_investidor": "SETE COLINAS FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO INVESTIMENTO NO EXTERIOR",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "621232.57"
+  },
+  {
+    "cnpj_fundo_investidor": "17.138.310/0001-70",
+    "fundo_investidor": "SANTANDER PB BLUE SKY RF CRÉD PRIV LP FI",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1803578.44"
+  },
+  {
+    "cnpj_fundo_investidor": "17.225.793/0001-40",
+    "fundo_investidor": "BB ECO PLUS FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "11021870.29"
+  },
+  {
+    "cnpj_fundo_investidor": "17.339.084/0001-95",
+    "fundo_investidor": "WESTERN ASSET TROPICAL FUNDO DE INVESTIMENTO RENDA FIXA",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "160318.12"
+  },
+  {
+    "cnpj_fundo_investidor": "17.689.994/0001-06",
+    "fundo_investidor": "WESTERN ASSET IGUAÇU FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "661312.09"
+  },
+  {
+    "cnpj_fundo_investidor": "17.780.194/0001-98",
+    "fundo_investidor": "PROSPERITA II FUNDO DE INVESTIMENTO MULTIMERCADO CREDITO PRIVADO INVESTIMENTO NO EXTERIOR",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "350695.81"
+  },
+  {
+    "cnpj_fundo_investidor": "18.428.655/0001-20",
+    "fundo_investidor": "BB TOP RENDA FIXA CREDITO PRIVADO ALTO RENDIMENTO LONGO PRAZO FUNDO DE INVESTIMENTO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "10019882.08"
+  },
+  {
+    "cnpj_fundo_investidor": "18.814.287/0001-59",
+    "fundo_investidor": "FAIRFIELD FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "8907673.50"
+  },
+  {
+    "cnpj_fundo_investidor": "19.038.997/0001-05",
+    "fundo_investidor": "FINACAP FUNDO DE INVESTIMENTO MULTIMERCADO E MULTIESTRATÉGIA CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "500994.11"
+  },
+  {
+    "cnpj_fundo_investidor": "19.831.152/0001-64",
+    "fundo_investidor": "BPC POLIURETANO FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1833638.08"
+  },
+  {
+    "cnpj_fundo_investidor": "19.941.929/0001-43",
+    "fundo_investidor": "WESTERN ASSET NEWPORT NEWS FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1733439.28"
+  },
+  {
+    "cnpj_fundo_investidor": "20.055.608/0001-20",
+    "fundo_investidor": "TFO BRASIL PLURAL CRÉDITO CORPORATIVO FI MULTIMERCADO INVESTIMENTO NO EXTERIOR CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "861709.69"
+  },
+  {
+    "cnpj_fundo_investidor": "20.504.761/0001-98",
+    "fundo_investidor": "CSHG ARIBISA FUNDO DE INVESTIMENTO MULTIMERCADO - CRÉDITO PRIVADO INVESTIMENTO NO EXTERIOR",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1001988.02"
+  },
+  {
+    "cnpj_fundo_investidor": "20.504.782/0001-03",
+    "fundo_investidor": "BNP PARIBAS HYPERION FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "3005964.06"
+  },
+  {
+    "cnpj_fundo_investidor": "20.519.416/0001-28",
+    "fundo_investidor": "VOLKS UP! CRÉDITO PRIVADO FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "2835626.10"
+  },
+  {
+    "cnpj_fundo_investidor": "20.725.946/0001-22",
+    "fundo_investidor": "FUNDO DE INVESTIMENTO RENDA FIXA EMB I A",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "2224413.85"
+  },
+  {
+    "cnpj_fundo_investidor": "20.725.957/0001-02",
+    "fundo_investidor": "FUNDO DE INVESTIMENTO MULTIMERCADO EMB II A",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "3005964.66"
+  },
+  {
+    "cnpj_fundo_investidor": "20.887.247/0001-89",
+    "fundo_investidor": "GERDAU PREVIDÊNCIA FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO 5",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "10170178.41"
+  },
+  {
+    "cnpj_fundo_investidor": "21.040.600/0001-53",
+    "fundo_investidor": "CFO CORPORATIVO FUNDO DE INVESTIMENTO MULTIMERCADO - CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "360715.76"
+  },
+  {
+    "cnpj_fundo_investidor": "22.041.150/0001-86",
+    "fundo_investidor": "BRASIL PLURAL MASTER PREVIDÊNCIA CRÉDITO PRIVADO FUNDO DE INVESTIMENTO RENDA FIXA",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "3997932.20"
+  },
+  {
+    "cnpj_fundo_investidor": "23.340.195/0001-14",
+    "fundo_investidor": "CSHG EMERALD BRAZIL FUNDO DE INVESTIMENTO MULTIMERCADO - CRÉDITO PRIVADO INVESTIMENTO NO EXTERIOR",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "5009940.11"
+  },
+  {
+    "cnpj_fundo_investidor": "23.502.713/0001-59",
+    "fundo_investidor": "SUL AMÉRICA BRASIL PLURAL MASTER PREV FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1292564.81"
+  },
+  {
+    "cnpj_fundo_investidor": "23.556.204/0001-09",
+    "fundo_investidor": "AZ QUEST LUCE MASTER FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO LONGO PRAZO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "40079.52"
+  },
+  {
+    "cnpj_fundo_investidor": "23.613.369/0001-75",
+    "fundo_investidor": "ANGACO FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "240477.17"
+  },
+  {
+    "cnpj_fundo_investidor": "23.884.672/0001-02",
+    "fundo_investidor": "HAWKSWELL FUNDO DE INVESTIMENTO MULTIMERCADO - CRÉDITO PRIVADO INVESTIMENTO NO EXTERIOR",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "981948.26"
+  },
+  {
+    "cnpj_fundo_investidor": "23.884.678/0001-80",
+    "fundo_investidor": "GLOBAL PARTICIPAÇÕES E INVESTIMENTOS FUNDO DE INVESTIMENTO MULTIMERCADO - CRED PRIV IE",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1492962.15"
+  },
+  {
+    "cnpj_fundo_investidor": "23.964.361/0001-53",
+    "fundo_investidor": "FABASA GUARAJUBA FI RF",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "681351.85"
+  },
+  {
+    "cnpj_fundo_investidor": "24.331.273/0001-87",
+    "fundo_investidor": "HIDRA FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO INVESTIMENTO NO EXTERIOR",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "500994.11"
+  },
+  {
+    "cnpj_fundo_investidor": "24.572.511/0001-46",
+    "fundo_investidor": "GALT FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "901789.22"
+  },
+  {
+    "cnpj_fundo_investidor": "26.142.202/0001-61",
+    "fundo_investidor": "BANDEIRANTES FUNDO DE INVESTIMENTO MULTIMERCADO CREDITO PRIVADO LONGO PRAZO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "2003976.42"
+  },
+  {
+    "cnpj_fundo_investidor": "26.142.839/0001-58",
+    "fundo_investidor": "BB JAQG FUNDO DE INVESTIMENTO MULTIMERCADO  CRÉDITO PRIVADO LONGO PRAZO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "4007952.83"
+  },
+  {
+    "cnpj_fundo_investidor": "26.751.317/0001-53",
+    "fundo_investidor": "BB JTP FUNDO DE INVESTIMENTO MULTIMERCADO CREDITO PRIVADO LONGO PRAZO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "2504970.52"
+  },
+  {
+    "cnpj_fundo_investidor": "26.794.303/0001-17",
+    "fundo_investidor": "BB PROENÇA FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO LONGO PRAZO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "500994.10"
+  },
+  {
+    "cnpj_fundo_investidor": "28.144.599/0001-56",
+    "fundo_investidor": "CALETHA FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO INVESTIMENTO NO EXTERIOR",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "400795.29"
+  },
+  {
+    "cnpj_fundo_investidor": "28.558.361/0001-77",
+    "fundo_investidor": "THALASSA FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO INVESTIMENTO NO EXTERIOR",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "2504970.54"
+  },
+  {
+    "cnpj_fundo_investidor": "28.581.588/0001-33",
+    "fundo_investidor": "UNIÃO ASPECIR PGBL E VGBL FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO PREVIDENCIÁRIO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "20039.76"
+  },
+  {
+    "cnpj_fundo_investidor": "28.581.607/0001-21",
+    "fundo_investidor": "4UM FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO LONGO PRAZO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "661312.23"
+  },
+  {
+    "cnpj_fundo_investidor": "28.648.875/0001-13",
+    "fundo_investidor": "BRASIL PLURAL FOZ DO IGUAÇU FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO LONGO PRAZO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1102186.83"
+  },
+  {
+    "cnpj_fundo_investidor": "29.733.934/0001-14",
+    "fundo_investidor": "IRB FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "3005964.66"
+  },
+  {
+    "cnpj_fundo_investidor": "29.983.465/0001-91",
+    "fundo_investidor": "WESTERN ASSET ROUEN FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1092166.95"
+  },
+  {
+    "cnpj_fundo_investidor": "29.983.496/0001-42",
+    "fundo_investidor": "137 FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "24037692.61"
+  },
+  {
+    "cnpj_fundo_investidor": "30.330.483/0001-53",
+    "fundo_investidor": "MBPREV IV RENDA FIXA FUNDO DE INVESTIMENTO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1993956.16"
+  },
+  {
+    "cnpj_fundo_investidor": "30.338.831/0001-39",
+    "fundo_investidor": "XPA VERTICE CRÉDITO FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1603180.83"
+  },
+  {
+    "cnpj_fundo_investidor": "30.556.626/0001-40",
+    "fundo_investidor": "VIC CORPORATIVO FUNDO DE INVESTIMENTO MULTIMERCADO - CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "811610.46"
+  },
+  {
+    "cnpj_fundo_investidor": "30.592.693/0001-10",
+    "fundo_investidor": "CSHG ANS FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "901789.22"
+  },
+  {
+    "cnpj_fundo_investidor": "30.606.413/0001-85",
+    "fundo_investidor": "BB MULTIMERCADO BRUDER CRÉDITO PRIVADO LONGO PRAZO FUNDO DE INVESTIMENTO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "15230220.75"
+  },
+  {
+    "cnpj_fundo_investidor": "30.857.989/0001-15",
+    "fundo_investidor": "TAMAR FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "200397.60"
+  },
+  {
+    "cnpj_fundo_investidor": "31.247.970/0001-10",
+    "fundo_investidor": "CFO HIGH YIELD FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "190377.76"
+  },
+  {
+    "cnpj_fundo_investidor": "32.228.214/0001-06",
+    "fundo_investidor": "ERA FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "200397.60"
+  },
+  {
+    "cnpj_fundo_investidor": "34.195.993/0001-16",
+    "fundo_investidor": "XP ADVISORY PORTFOLIO PRIVATE I FUNDO DE INVESTIMENTO MULTIMERCADO CREDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "390775.33"
+  },
+  {
+    "cnpj_fundo_investidor": "34.231.962/0001-73",
+    "fundo_investidor": "XP ADVISORY PORTFOLIO PRIVATE II FUNDO DE INVESTIMENTO MULTIMERCADO  CREDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "500994.01"
+  },
+  {
+    "cnpj_fundo_investidor": "35.927.084/0001-98",
+    "fundo_investidor": "GPD PREV FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "300596.41"
+  },
+  {
+    "cnpj_fundo_investidor": "36.521.804/0001-83",
+    "fundo_investidor": "INTER LOG FUNDO DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1112206.92"
+  },
+  {
+    "cnpj_fundo_investidor": "36.874.443/0001-59",
+    "fundo_investidor": "CSHG MASTER PORTFOLIO ESG CRÉDITO PRIVADO FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "valor_aplicacao_fundo": "1052087.42"
+  },
+  {
+    "valor_total_aplicacoes": "1045825140.16"
+  }
+]
