@@ -40,7 +40,9 @@ Alterar as seguintes diretivas no arquivo ```~/dse-6.8.10/resources/dse/conf/dse
 ```sh
 cql_solr_query_paging: driver
 ...
-realtime_evaluation_timeout_in_seconds: 300
+graph:
+  ...
+  realtime_evaluation_timeout_in_seconds: 300
 ```
 
 ### Inicialização do banco Datastax Enterprise, habilitando o DSE Graph e o DSE Search
