@@ -22,3 +22,9 @@ __Importante: Os resultados da análise de carteiras de fundos apresentados ness
 * __[DataStax Bulk Loader](https://downloads.datastax.com/#bulk-loader)__: ferramenta de carga de dados no banco de grafos
 * __[Linguagem Gremlin](https://tinkerpop.apache.org/gremlin.html)__: consulta e travessia de grafos
 * __[Datastax Studio](https://downloads.datastax.com/#studio)__: ambiente de execução Gremlin (análise exploratória de grafos)
+
+## Documentação e código da prova de conceito:
+
+* __[Definição do problema, coleta e preparação dos dados](carteira_fundos.ipynb)__
+* __[Criação e carga do banco de grafos, análises e consultas](dse-graph/README.md)__
+* Conclusão
