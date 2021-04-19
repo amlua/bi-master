@@ -1,6 +1,6 @@
 # Análise de Composição de Carteira de Fundos de Investimento
 
-## Trabalho Final de Conclusão do Curso BI-Master (PUC-Rio)
+## Trabalho de Conclusão do Curso BI-Master (PUC-Rio)
 ### Aluna: Andréia Miranda de Luna
 ### Orientador: Prof. Anderson Silva do Nascimento
 
