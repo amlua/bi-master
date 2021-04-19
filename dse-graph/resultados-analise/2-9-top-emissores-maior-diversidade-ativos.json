@@ -2,17 +2,17 @@
   {
     "id_emissor": "02e3441228b5c383156c605d8f9fa3c1",
     "nome": "BCO BRADESCO SA",
-    "degree": "1289"
+    "degree": "1262"
   },
   {
     "id_emissor": "b15770c6640c09b487349a63644b8fd7",
     "nome": "BCO SANTANDER (BRASIL) SA",
-    "degree": "1059"
+    "degree": "1056"
   },
   {
     "id_emissor": "2e79cc0ca9a1fd10cb14686c77d4fa17",
     "nome": "B3 SA - BRASIL, BOLSA, BALCAO",
-    "degree": "1018"
+    "degree": "1001"
   },
   {
     "id_emissor": "6cecc91004aa979a2b088083f037f666",
@@ -20,14 +20,14 @@
     "degree": "937"
   },
   {
-    "id_emissor": "2447d53df1878d185c13ac1a89eaf4ad",
-    "nome": "PETROLEO BRASILEIRO SA PETROBRAS",
-    "degree": "908"
-  },
-  {
     "id_emissor": "71c3336422b7666da92258f678397464",
     "nome": "ITAÚ",
     "degree": "897"
+  },
+  {
+    "id_emissor": "2447d53df1878d185c13ac1a89eaf4ad",
+    "nome": "PETROLEO BRASILEIRO SA PETROBRAS",
+    "degree": "892"
   },
   {
     "id_emissor": "970fb3236ff1d602028719f050dfaf29",
@@ -47,6 +47,6 @@
   {
     "id_emissor": "3820332f6b569fb0ec9d25b92856ff5c",
     "nome": "BCO BRASIL SA",
-    "degree": "649"
+    "degree": "630"
   }
 ]
