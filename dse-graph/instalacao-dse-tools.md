@@ -42,7 +42,7 @@ cql_solr_query_paging: driver
 ...
 graph:
   ...
-  realtime_evaluation_timeout_in_seconds: 300
+  realtime_evaluation_timeout_in_seconds: 600
 ```
 
 ### Inicialização do banco Datastax Enterprise, habilitando o DSE Graph e o DSE Search
