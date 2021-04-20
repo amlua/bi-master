@@ -6,7 +6,7 @@
     "ticker": "-",
     "emissor": "SECRETARIA TESOURO NACIONAL",
     "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO LETRAS FINANCEIRAS DO TESOURO",
-    "degree": "10692"
+    "degree": "10693"
   },
   {
     "id_ativo": "fb52fe8928c7e0bbfb02a6c22d19e9eb",
@@ -15,7 +15,7 @@
     "ticker": "-",
     "emissor": "SECRETARIA TESOURO NACIONAL",
     "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO LETRAS FINANCEIRAS DO TESOURO",
-    "degree": "10507"
+    "degree": "10508"
   },
   {
     "id_ativo": "7ab2364779f0fe9bebdff505131dde1f",
@@ -42,7 +42,7 @@
     "ticker": "-",
     "emissor": "SECRETARIA TESOURO NACIONAL",
     "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO LETRAS FINANCEIRAS DO TESOURO",
-    "degree": "9874"
+    "degree": "9875"
   },
   {
     "id_ativo": "bde195cb5fd50051a514919231baf0d5",
@@ -51,7 +51,7 @@
     "ticker": "-",
     "emissor": "SECRETARIA TESOURO NACIONAL",
     "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO LETRAS FINANCEIRAS DO TESOURO",
-    "degree": "9795"
+    "degree": "9796"
   },
   {
     "id_ativo": "ba16a7556f7457cd62e442f971f7ddd3",
@@ -69,7 +69,7 @@
     "ticker": "-",
     "emissor": "SECRETARIA TESOURO NACIONAL",
     "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO",
-    "degree": "9450"
+    "degree": "9451"
   },
   {
     "id_ativo": "3684603707d3d8a22fc84bd66487d6d9",
@@ -87,7 +87,7 @@
     "ticker": "-",
     "emissor": "SECRETARIA TESOURO NACIONAL",
     "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO",
-    "degree": "7892"
+    "degree": "7893"
   },
   {
     "id_ativo": "17b70bef9bfc45ec1ab9f88ce413a4d3",
@@ -105,7 +105,7 @@
     "ticker": "-",
     "emissor": "SECRETARIA TESOURO NACIONAL",
     "ticker_desc": "NOTAS DO TESOURO NACIONAL SERIE B",
-    "degree": "5451"
+    "degree": "5452"
   },
   {
     "id_ativo": "c72352b69567bd78998644887a498ae9",
@@ -249,7 +249,7 @@
     "ticker": "PETR4",
     "emissor": "PETROLEO BRASILEIRO SA PETROBRAS",
     "ticker_desc": "PETR4",
-    "degree": "3828"
+    "degree": "3829"
   },
   {
     "id_ativo": "333b1d7f914bbabfd01bc34171c53751",
@@ -267,7 +267,7 @@
     "ticker": "-",
     "emissor": "SECRETARIA TESOURO NACIONAL",
     "ticker_desc": "NOTAS DO TESOURO NACIONAL SERIE B NOTAS DO TESOURO NACIONAL SERIE B",
-    "degree": "3717"
+    "degree": "3718"
   },
   {
     "id_ativo": "53b8cb8020fd6c19048597cf84691569",
@@ -357,7 +357,7 @@
     "ticker": "BBAS3",
     "emissor": "BCO BRASIL SA",
     "ticker_desc": "BBAS3",
-    "degree": "3143"
+    "degree": "3144"
   },
   {
     "id_ativo": "1d73788093a7769a763e88bb5ea304ac",
@@ -375,7 +375,7 @@
     "ticker": "VVAR3",
     "emissor": "VIA VAREJO SA",
     "ticker_desc": "VVAR3",
-    "degree": "3008"
+    "degree": "3009"
   },
   {
     "id_ativo": "0876feeeee4446432c4d1d7b2cd53e3b",

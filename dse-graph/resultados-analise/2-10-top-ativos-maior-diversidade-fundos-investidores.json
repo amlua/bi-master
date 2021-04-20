@@ -33,7 +33,7 @@
     "ticker": "-",
     "emissor": "SECRETARIA TESOURO NACIONAL",
     "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO",
-    "degree": "1491"
+    "degree": "1492"
   },
   {
     "id_ativo": "fb52fe8928c7e0bbfb02a6c22d19e9eb",
@@ -87,7 +87,7 @@
     "ticker": "-",
     "emissor": "SECRETARIA TESOURO NACIONAL",
     "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO LETRAS FINANCEIRAS DO TESOURO",
-    "degree": "1238"
+    "degree": "1239"
   },
   {
     "id_ativo": "83a6f4e8b77f986c8bbee584d86d0a30",
@@ -114,7 +114,7 @@
     "ticker": "-",
     "emissor": "SECRETARIA TESOURO NACIONAL",
     "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO",
-    "degree": "1177"
+    "degree": "1178"
   },
   {
     "id_ativo": "7a7116e807a341d293a46f139db93776",
@@ -177,7 +177,7 @@
     "ticker": "PETR4",
     "emissor": "PETROLEO BRASILEIRO SA PETROBRAS",
     "ticker_desc": "PETR4",
-    "degree": "878"
+    "degree": "879"
   },
   {
     "id_ativo": "931fda6a5040d49705a8baf564d28659",
@@ -243,6 +243,15 @@
     "degree": "748"
   },
   {
+    "id_ativo": "ce502efeeba6d8fd4d3cfc21a9d34744",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "isin": "BRBBASACNOR3",
+    "ticker": "BBAS3",
+    "emissor": "BCO BRASIL SA",
+    "ticker_desc": "BBAS3",
+    "degree": "722"
+  },
+  {
     "id_ativo": "72b6dc5def2d9724f6499b49f49cb3af",
     "descricao": "LETRAS FINANCEIRAS DO TESOURO",
     "isin": "BRSTNCLF1RF7",
@@ -250,15 +259,6 @@
     "emissor": "SECRETARIA TESOURO NACIONAL",
     "ticker_desc": "LETRAS FINANCEIRAS DO TESOURO",
     "degree": "722"
-  },
-  {
-    "id_ativo": "ce502efeeba6d8fd4d3cfc21a9d34744",
-    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
-    "isin": "BRBBASACNOR3",
-    "ticker": "BBAS3",
-    "emissor": "BCO BRASIL SA",
-    "ticker_desc": "BBAS3",
-    "degree": "721"
   },
   {
     "id_ativo": "d1fec1dd0ca69925daace6935344d821",
@@ -303,7 +303,7 @@
     "ticker": "VVAR3",
     "emissor": "VIA VAREJO SA",
     "ticker_desc": "VVAR3",
-    "degree": "653"
+    "degree": "654"
   },
   {
     "id_ativo": "53b8cb8020fd6c19048597cf84691569",

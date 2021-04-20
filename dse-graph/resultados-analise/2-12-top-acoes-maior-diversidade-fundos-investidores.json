@@ -11,7 +11,7 @@
     "descricao": "ACOES NOMINATIVAS ACOES PREFERENCIAIS",
     "ticker": "PETR4",
     "emissor": "PETROLEO BRASILEIRO SA PETROBRAS",
-    "degree": "878"
+    "degree": "879"
   },
   {
     "id_ativo": "333b1d7f914bbabfd01bc34171c53751",
@@ -32,7 +32,7 @@
     "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
     "ticker": "BBAS3",
     "emissor": "BCO BRASIL SA",
-    "degree": "721"
+    "degree": "722"
   },
   {
     "id_ativo": "d1fec1dd0ca69925daace6935344d821",
@@ -49,18 +49,18 @@
     "degree": "668"
   },
   {
+    "id_ativo": "4b2b3905aa0bb656b9251645c5669ba8",
+    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
+    "ticker": "VVAR3",
+    "emissor": "VIA VAREJO SA",
+    "degree": "654"
+  },
+  {
     "id_ativo": "c11b2e01abc72b02f65081a356beb451",
     "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
     "ticker": "JBSS3",
     "emissor": "JBS SA",
     "degree": "654"
-  },
-  {
-    "id_ativo": "4b2b3905aa0bb656b9251645c5669ba8",
-    "descricao": "ACOES NOMINATIVAS ACOES ORDINARIAS",
-    "ticker": "VVAR3",
-    "emissor": "VIA VAREJO SA",
-    "degree": "653"
   },
   {
     "id_ativo": "53b8cb8020fd6c19048597cf84691569",
