@@ -33,12 +33,14 @@ __Importante: Os resultados da análise de carteiras de fundos apresentados ness
 * __[Datastax Enterprise (DSE) Graph](https://downloads.datastax.com/#enterprise)__: banco de dados de grafos
 * __[DataStax Bulk Loader](https://downloads.datastax.com/#bulk-loader)__: ferramenta de carga de dados no banco de grafos
 * __[Linguagem Gremlin](https://tinkerpop.apache.org/gremlin.html)__: consulta e travessia de grafos
-* __[Datastax Studio](https://downloads.datastax.com/#studio)__: ambiente de execução Gremlin (análise exploratória de grafos)
+* __[Datastax Studio](https://downloads.datastax.com/#studio)__: ambiente de execução Gremlin (análise exploratória e consulta de grafos)
 
 ## Etapas da prova de conceito:
 
 * __[Definição do problema, coleta e preparação dos dados](carteira_fundos.ipynb)__
 * __[Criação e carga do banco de grafos, análises e consultas](dse-graph/README.md)__
+
+Os dados utilizados na prova de conceito foram obtidos em 31/03/2021 (posição da carteira dos fundos: 11/2020): [Arquivos Portal de Dados CVM e Consulta [B]<sup>3</sup> ISIN](dados-abertos)
 
 ---
 
