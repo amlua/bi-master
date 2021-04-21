@@ -6,7 +6,7 @@
 
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projeto de Sistemas Inteligentes de Apoio à Decisão"
 * [Link para o código](https://github.com/amlua/bi-master)
-* [Link para a monografia](https://github.com/amlua/bi-master/artigo_carteira_fundos.docx)
+* Link para a monografia
 
 Endereço do projeto no GitHub: https://github.com/amlua/bi-master
 
