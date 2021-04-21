@@ -194,7 +194,7 @@ g.V()
 ```
 [Resultado](resultados-consulta/3-2-1-fundos-cotas-gestores.json)
 
-## 3.3. Carteira consolidada (ativos e fundos investidos)
+## 3.3. Carteira simples (ativos e fundos investidos)
 
 Aplicações do fundo: ativos financeiros e respectivos emissores (quando identificados) e cotas de outros fundos
 
@@ -587,13 +587,14 @@ def isin='BRVIVTDBS069'
 ## 5.1. Identificação e emissor do ativo
 
 ### Grafo com o ativo e seu emissor (quando identificado)
-
+```
 g.V()
     .hasLabel('ativo')
     .has('isin',isin)
     .outE('emitido')
-![Grafo](resultados-consulta/4-1-fundos-investidores.png "Grafo")
-    
+```
+![Grafo](resultados-consulta/5-1-ativo.png "Grafo")
+
 ### Propriedades do ativo e seu emissor (quando identificado) (representação JSON)
 ```
 g.V()
@@ -609,7 +610,7 @@ g.V()
         .by(coalesce(out('emitido').values('cpf_cnpj'),constant('-')))
         .by(coalesce(out('emitido').values('nome'),constant('-')))
 ```
-[Resultado](resultados-consulta/4-1-fundos-investidores.json)
+[Resultado](resultados-consulta/5-1-ativo.json)
 
 ## 5.1.1. Ativos de mesmo emissor
 
@@ -621,7 +622,7 @@ g.V()
     .out('emitido')
     .inE('emitido')
 ```
-![Grafo](resultados-consulta/5-1-ativo.png "Grafo")
+![Grafo](resultados-consulta/5-1-1-ativos-mesmo-emissor.png "Grafo")
     
 ### Ativos de mesmo emissor (representação JSON)
 ```
@@ -638,7 +639,7 @@ g.V()
         .by(coalesce(values('pais'),constant('-')))
         .by(coalesce(values('data_vencimento'),constant('-')))
 ```
-[Resultado](resultados-consulta/5-1-ativo.json)
+[Resultado](resultados-consulta/5-1-1-ativos-mesmo-emissor.json)
 
 ## 5.2. Fundos investidores diretos no ativo
 

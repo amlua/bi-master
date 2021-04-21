@@ -29,6 +29,7 @@ g.with("label-warning", false).E()
 ### Classificação dos vértices pelo número de arestas incidentes
 
 ### 2.1. Top 10 fundos com maior diversidade de ativos
+#### 2.1.1. Top 10 fundos com maior diversidade de ativos (investidos diretamente)
 ```
 g.V()
     .hasLabel('fundo')
@@ -39,7 +40,21 @@ g.V()
     .order().by(select('degree'), desc)
     .limit(10)
 ```
-[Resultado](resultados-analise/2-1-top-fundos-maior-diversidade-ativos.json)
+[Resultado](resultados-analise/2-1-1-top-fundos-maior-diversidade-ativos.json)
+
+#### 2.1.2. Top 10 fundos com maior diversidade de ativos (investidos direta e indiretamente)
+Observação: A busca no grafo atravessa as arestas **aplicacao_fundo, tantas vezes quanto possível** (profundidade = n).
+```
+g.V()
+    .hasLabel('fundo')
+    .project('cnpj', 'nome', 'degree')
+    .by('cnpj')
+    .by('nome')
+    .by(repeat(out('aplicacao_fundo').simplePath()).emit().dedup().outE('aplicacao_ativo').count())
+    .order().by(select('degree'), desc)
+    .limit(10)
+```
+[Resultado](resultados-analise/2-1-2-top-fundos-maior-diversidade-ativos.json)
 
 ### 2.2. Top 10 fundos com maior diversidade de ativos, dentre os que não investem em cotas de outros fundos
 ```
