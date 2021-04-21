@@ -587,13 +587,14 @@ def isin='BRVIVTDBS069'
 ## 5.1. Identificação e emissor do ativo
 
 ### Grafo com o ativo e seu emissor (quando identificado)
-
+```
 g.V()
     .hasLabel('ativo')
     .has('isin',isin)
     .outE('emitido')
-![Grafo](resultados-consulta/4-1-fundos-investidores.png "Grafo")
-    
+```
+![Grafo](resultados-consulta/5-1-ativo.png "Grafo")
+
 ### Propriedades do ativo e seu emissor (quando identificado) (representação JSON)
 ```
 g.V()
