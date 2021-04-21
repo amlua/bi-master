@@ -9,7 +9,7 @@ Esta página apresenta o código das consultas Gremlin e os resultados obtidos p
 
 Posição da carteira dos fundos no grafo consultado: 11/2020.
 
-Arquivo de dump do grafo consultado: [dse-unload-files.tar.gz](dse-unload-files.tar.gz).
+Arquivo de dump do grafo consultado: [dse-load-files.tar.gz](dse-load-files.tar.gz).
 
 ## 1. Dados cadastrais e patrimônio líquido do fundo
 
