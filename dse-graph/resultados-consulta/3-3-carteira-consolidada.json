@@ -1,0 +1,131 @@
+[
+  {
+    "ativo": "Disponibilidades - Outros - Disponibilidade",
+    "isin": "-",
+    "ticker": "-",
+    "pr_patrimonio_liquido": "0.001",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-",
+    "cpf_cnpj_emissor": "-",
+    "emissor": "-"
+  },
+  {
+    "ativo": "Valores a receber - Outros - Valores a Receber",
+    "isin": "-",
+    "ticker": "-",
+    "pr_patrimonio_liquido": "0.106",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-",
+    "cpf_cnpj_emissor": "-",
+    "emissor": "-"
+  },
+  {
+    "ativo": "Valores a pagar - Outros - Valores a Pagar",
+    "isin": "-",
+    "ticker": "-",
+    "pr_patrimonio_liquido": "-1.858",
+    "mercado_negociacao": "-",
+    "pais": "-",
+    "data_vencimento": "-",
+    "cpf_cnpj_emissor": "-",
+    "emissor": "-"
+  },
+  {
+    "cnpj_fundo": "10.565.506/0001-00",
+    "fundo": "SANTANDER CASH BLUE FUNDO DE INVESTIMENTO RENDA FIXA REFERENCIADO DI",
+    "tipo": "FI",
+    "pr_patrimonio_liquido": "4.492"
+  },
+  {
+    "cnpj_fundo": "13.812.165/0001-00",
+    "fundo": "JGP STRATEGY FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "pr_patrimonio_liquido": "4.385"
+  },
+  {
+    "cnpj_fundo": "21.407.758/0001-19",
+    "fundo": "IT NOW IBOVESPA FUNDO DE ÍNDICE",
+    "tipo": "FIIM",
+    "pr_patrimonio_liquido": "1.549"
+  },
+  {
+    "cnpj_fundo": "30.509.278/0001-50",
+    "fundo": "VTR FOF MF FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "pr_patrimonio_liquido": "57.907"
+  },
+  {
+    "cnpj_fundo": "31.457.486/0001-15",
+    "fundo": "VTR SR FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO IE",
+    "tipo": "FI",
+    "pr_patrimonio_liquido": "3.807"
+  },
+  {
+    "cnpj_fundo": "32.711.748/0001-99",
+    "fundo": "VTR KAPITALO ZETA FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "pr_patrimonio_liquido": "4.048"
+  },
+  {
+    "cnpj_fundo": "33.736.767/0001-32",
+    "fundo": "VITREO CRIPTOMOEDAS FI EM COTAS DE FUNDO DE INVESTIMENTO MULTIMERCADO INVESTIMENTIMENTO NO EXTERIOR",
+    "tipo": "FI",
+    "pr_patrimonio_liquido": "0.609"
+  },
+  {
+    "cnpj_fundo": "33.736.845/0001-07",
+    "fundo": "HASHDEX CRIPTOATIVOS VOYAGER FUNDO DE INVESTIMENTO MULTIMERCADO INVESTIMENTO NO EXTERIOR",
+    "tipo": "FI",
+    "pr_patrimonio_liquido": "0.622"
+  },
+  {
+    "cnpj_fundo": "33.952.939/0001-05",
+    "fundo": "VITREO DÓLAR FUNDO DE INVESTIMENTO CAMBIAL",
+    "tipo": "FI",
+    "pr_patrimonio_liquido": "4.166"
+  },
+  {
+    "cnpj_fundo": "34.218.574/0001-52",
+    "fundo": "VITREO OURO FUNDO DE INVESTIMENTO MULTIMERCADO",
+    "tipo": "FI",
+    "pr_patrimonio_liquido": "3.17"
+  },
+  {
+    "cnpj_fundo": "34.218.678/0001-67",
+    "fundo": "AUGME 180 FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO MULTIMERCADO CRÉDITO PRIVADO",
+    "tipo": "FI",
+    "pr_patrimonio_liquido": "0.936"
+  },
+  {
+    "cnpj_fundo": "35.471.498/0001-55",
+    "fundo": "TRIGONO FLAGSHIP 60 SMALL CAPS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO EM ACOES",
+    "tipo": "FI",
+    "pr_patrimonio_liquido": "0.963"
+  },
+  {
+    "cnpj_fundo": "35.505.971/0001-78",
+    "fundo": "SPX SEAHAWK FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO RENDA FIXA CRÉDITO PRIVADO LP",
+    "tipo": "FI",
+    "pr_patrimonio_liquido": "0.976"
+  },
+  {
+    "cnpj_fundo": "35.820.586/0001-15",
+    "fundo": "VITREO INFLAÇÃO LONGA FUNDO DE INVESTIMENTO RENDA FIXA",
+    "tipo": "FI",
+    "pr_patrimonio_liquido": "8.232"
+  },
+  {
+    "cnpj_fundo": "36.326.771/0001-10",
+    "fundo": "ATMR II FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO DE AÇÕES",
+    "tipo": "FI",
+    "pr_patrimonio_liquido": "5.395"
+  },
+  {
+    "cnpj_fundo": "38.417.971/0001-04",
+    "fundo": "SPECTRA LATIN AMERICA PRIVATE EQUITY V FI MULTIMERCADO CRÉDITO PRIVADO INVESTIMENTO NO EXTERIOR",
+    "tipo": "FI",
+    "pr_patrimonio_liquido": "0.494"
+  }
+]
