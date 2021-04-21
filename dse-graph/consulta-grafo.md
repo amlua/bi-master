@@ -3,8 +3,8 @@
 Para ser executado em uma console Gremlin (por exemplo, em células de um [notebook Datastax Studio](BI-Master-consulta-grafo.studio-nb.tar)).
 
 Esta página apresenta o código das consultas Gremlin e os resultados obtidos para os seguintes vértices do grafo:
-* Fundo CNPJ: 30.509.286/0001-04 (VITREO FOF MELHORES FUNDOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO MULTIMERCADO CP)
-* Fundo CNPJ: 08.912.591/0001-85 (JGP MAX FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO MULTIMERCADO)
+* Fundo CNPJ: 30.509.286/0001-04 (VITREO FOF MELHORES FIC FIM CP)
+* Fundo CNPJ: 08.912.591/0001-85 (JGP MAX FIC FIM)
 * Ativo [ISIN: BRVIVTDBS069 (DEBENTURES SIMPLES TELEFONICA BRASIL SA)](http://bvmf.bmfbovespa.com.br/consulta-isin/DetalheCodigosIsin.aspx?idioma=pt-BR&codigo=BRVIVTDBS069)
 
 Posição da carteira dos fundos no grafo consultado: 11/2020.
