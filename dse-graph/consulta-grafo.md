@@ -194,7 +194,7 @@ g.V()
 ```
 [Resultado](resultados-consulta/3-2-1-fundos-cotas-gestores.json)
 
-## 3.3. Carteira consolidada (ativos e fundos investidos)
+## 3.3. Carteira simples (ativos e fundos investidos)
 
 Aplicações do fundo: ativos financeiros e respectivos emissores (quando identificados) e cotas de outros fundos
 
