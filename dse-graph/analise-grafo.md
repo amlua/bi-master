@@ -4,7 +4,7 @@ Para ser executado em uma console Gremlin (por exemplo, em células de um [noteb
 
 Posição da carteira dos fundos no grafo analisado: 11/2020.
 
-Arquivo de dump do grafo analisado: [dse-unload-files.tar.gz](dse-unload-files.tar.gz).
+Arquivo de dump do grafo analisado: [dse-load-files.tar.gz](dse-load-files.tar.gz).
 
 
 ## Cardinalidade
