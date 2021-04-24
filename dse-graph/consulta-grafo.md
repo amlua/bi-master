@@ -258,7 +258,7 @@ Para não poluir o grafo, não são incluídas as aplicações que representam e
 
 ### Valor percentual limite para filtrar as aplicações, em relação ao patrimônio líquido do fundo
 ```
-def limiar_pr_pl=0.5
+def limiar_pr_pl = 0.5
 ```
 ### Grafo com a carteira expandida do fundo
 ```
