@@ -216,7 +216,7 @@ g.V()
         outE('aplicacao_fundo')
     )
 ```
-![Grafo](resultados-consulta/3-3-carteira-consolidada.png "Grafo")
+![Grafo](resultados-consulta/3-3-carteira-simples.png "Grafo")
 
 ### Aplicações do fundo (representação JSON)
 ```
@@ -246,7 +246,7 @@ g.V()
             .by('pr_patrimonio_liquido')
             )
 ```
-[Resultado](resultados-consulta/3-3-carteira-consolidada.json)
+[Resultado](resultados-consulta/3-3-carteira-simples.json)
 
 ## 3.4. Carteira expandida (ativos e fundos investidos direta ou diretamente) - Nível 1
 
