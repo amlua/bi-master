@@ -21,8 +21,8 @@ Imagem [Docker](https://www.docker.com/) com o banco DSE Graph e o grafo __carte
 Roteiro para executar o laboratório:
 ```
 docker run -it -p 9091:9091 amlua/bi-master
-/root/start_dse_graph.sh
-/root/start_datastax_studio.sh
+# /root/start_dse_graph.sh
+# /root/start_datastax_studio.sh
 ```
 
 Após a inicialização dos serviços, o Datastax Studio e seus notebooks estarão acessíveis no endereço http://localhost:9091/ da máquina executando o container. 
