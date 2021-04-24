@@ -80,6 +80,8 @@ cd ~/datastax-studio-6.8.9/
 ./bin/server.sh &
 ```
 
+O ambiente Datastax Studio é uma aplicação web acessível na porta 9091 (http://[endereco_servidor]:9091/)
+
 ## Datastax Bulk Loader
 
 __Datastax Bulk Loader version: 1.8.0__
