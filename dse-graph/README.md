@@ -15,3 +15,14 @@
   * [Recipes](https://tinkerpop.apache.org/docs/current/recipes/#_recipes)
   * [PRACTICAL GREMLIN: An Apache TinkerPop Tutorial](http://kelvinlawrence.net/book/Gremlin-Graph-Guide.html)
 
+## Laboratório:
+  * [Imagem docker com o banco DSE Graph e o grafo carteira_fundos](https://hub.docker.com/amlua/bi-master)
+
+Roteiro para executar a imagem:
+```
+docker run -it -p 9091:9091 amlua/bi-master
+/root/start_dse_graph.sh
+/root/start_datastax_studio.sh
+```
+
+Após a inicialização dos serviços, o Datastax Studio estará acessível na máquina executando o container, no endereço http://localhost:9091/
