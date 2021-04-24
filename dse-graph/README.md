@@ -25,4 +25,4 @@ docker run -it -p 9091:9091 amlua/bi-master
 /root/start_datastax_studio.sh
 ```
 
-Após a inicialização dos serviços, o Datastax Studio estará acessível na máquina executando o container, no endereço http://localhost:9091/
+Após a inicialização dos serviços, o Datastax Studio e seus notebooks estarão acessíveis na máquina executando o container, no endereço http://localhost:9091/
